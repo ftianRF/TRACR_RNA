@@ -1,0 +1,7 @@
+a68ffb1f0060e61b88fffc72faee30a7  ./annotation_hashes.txt
+d7c0121ce69f6c7e8e72324b993ee1bf  ./GCA_903819865.1_freshwater_MAG_---_LJ-7-9m_bin-0353_assembly_report.txt
+af22fdbec0b5844b672c94f04c9dea26  ./GCA_903819865.1_freshwater_MAG_---_LJ-7-9m_bin-0353_assembly_stats.txt
+9e547c70f0ec9d0a422b7af5c9779039  ./GCA_903819865.1_freshwater_MAG_---_LJ-7-9m_bin-0353_feature_count.txt.gz
+ea0289a9ca526a5cb8dcced019f2add7  ./GCA_903819865.1_freshwater_MAG_---_LJ-7-9m_bin-0353_genomic.fna.gz
+09672f3f8c4df8ddfd5e39f751098cc9  ./GCA_903819865.1_freshwater_MAG_---_LJ-7-9m_bin-0353_genomic.gbff.gz
+2c06b80b26ea498d19625f78e8adda99  ./GCA_903819865.1_freshwater_MAG_---_LJ-7-9m_bin-0353_wgsmaster.gbff.gz

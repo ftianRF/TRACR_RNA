@@ -1,0 +1,7 @@
+a23ec1db23b9fbe5d21770877a0fbf33  ./annotation_hashes.txt
+e503f8a30ac3b41607ff34de9476730f  ./GCA_017887005.1_ASM1788700v1_assembly_report.txt
+1333b62b5b5de4d13eacb18305b450e9  ./GCA_017887005.1_ASM1788700v1_assembly_stats.txt
+7d7aed0a675a0fd340b406cb39dc5858  ./GCA_017887005.1_ASM1788700v1_feature_count.txt.gz
+1da5d6ae8e92b09aa03a848e1a965e71  ./GCA_017887005.1_ASM1788700v1_genomic.fna.gz
+a1f58aeaca0bab4dc63085727933f21c  ./GCA_017887005.1_ASM1788700v1_genomic.gbff.gz
+929699f57fd6d23a816f2a254e14abc1  ./GCA_017887005.1_ASM1788700v1_wgsmaster.gbff.gz

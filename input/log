@@ -1,0 +1,7 @@
+grep -w -f <(cat ../../../05-consKey/protein_sel10.txt | cut -f 1) ../../../protein.txt | sort > protein_sel.txt
+samtools faidx ../../../05-consKey/protein_sel10.fa $(cut -f 1 protein_sel.txt | sort -u) > protein_sel.fa
+grep -w -f <(cut -f 2 protein_sel.txt) ~/lustre/Resource/Genbank/ArcBac/url.txt | grep -e 'fna' -e 'md5' | grep -v '_cds_' > url_sel.txt
+bash do_check.sh > check.txt
+find raw -name "*.fna.gz" | tr '/' '\t' | cut -f 2- > raw_list.txt
+mkdir -p asm
+cat raw_list.txt | sed 's/\.gz$//' | while read asm fl; do ln -s ../unzip/$asm/$fl asm/${asm}.fa; done
