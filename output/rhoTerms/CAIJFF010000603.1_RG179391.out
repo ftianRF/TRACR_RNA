@@ -1,0 +1,21 @@
+
+Training set:	"scripts/Arnold/rho-indep.epn":
+		1201 sequences of length 71
+Cutoff:		5.53  
+
+Database:	"output/antiCandidates/CAIJFF010000603.1_RG179391.fasta"
+		1087 nucleotides to be processed in 4 sequences
+		ATGC ratios: 0.184  0.196  0.303  0.317
+E-value at cutoff 5.5 for 1.1Kb double strand data: 1.24e+00
+
+>CAIJFF010000603.1_RG179391_1203_1576_D
+FW   1     187..235      8.46  3.10e-01
+TCGGCACC.tcgccacacacgagggcca-----------.GGTGCCGA.c.GTTCTTTGTCTTC
+
+-------- at level 1 --------
+2174 bases processed
+cutoff: 5.53
+62 config. per site
+1 hit
+1 independent hit
+

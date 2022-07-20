@@ -1,0 +1,36 @@
+
+pilercr v1.06
+http://www.drive5.com/piler
+Written by Robert C. Edgar
+This software is donated to the public domain.
+Please visit web site for requested citation.
+
+
+   0 s       6 Mb (  0%)  Reading sequences from input/asm/GCA_010672215.1.fa
+   0 s      51 Mb (  5%)  100.00%  
+   0 s      51 Mb (  5%)  3346 sequences, total length 9248652 bases (9 Mb)
+   0 s      55 Mb (  5%)    0.00%  Allocating index   0 s      55 Mb (  5%)  100.00%  Allocating index
+   0 s      55 Mb (  5%)    0.00%  Filtering   0 s      55 Mb (  5%)    0.00%  Filtering   0 s      55 Mb (  5%)    2.16%  Filtering   0 s      55 Mb (  5%)    4.32%  Filtering   0 s      55 Mb (  5%)    6.49%  Filtering   0 s      55 Mb (  5%)    8.65%  Filtering   0 s      55 Mb (  5%)   10.81%  Filtering   0 s      55 Mb (  5%)   12.97%  Filtering   0 s      55 Mb (  5%)   15.14%  Filtering   0 s      55 Mb (  5%)   17.30%  Filtering   0 s      55 Mb (  5%)   19.46%  Filtering   0 s      55 Mb (  5%)   21.62%  Filtering   1 s      55 Mb (  5%)   23.79%  Filtering   1 s      55 Mb (  5%)   25.95%  Filtering   1 s      55 Mb (  5%)   28.11%  Filtering   1 s      55 Mb (  5%)   30.27%  Filtering   1 s      55 Mb (  5%)   32.44%  Filtering   1 s      55 Mb (  5%)   34.60%  Filtering   1 s      55 Mb (  5%)   36.76%  Filtering   1 s      55 Mb (  5%)   38.92%  Filtering   1 s      55 Mb (  5%)   41.09%  Filtering   1 s      55 Mb (  5%)   43.25%  Filtering   1 s      55 Mb (  5%)   45.41%  Filtering   1 s      55 Mb (  5%)   47.57%  Filtering   1 s      55 Mb (  5%)   49.74%  Filtering   1 s      55 Mb (  5%)   51.90%  Filtering   1 s      55 Mb (  5%)   54.06%  Filtering   1 s      55 Mb (  5%)   56.22%  Filtering   1 s      55 Mb (  5%)   58.39%  Filtering   1 s      55 Mb (  5%)   60.55%  Filtering   1 s      55 Mb (  5%)   62.71%  Filtering   1 s      55 Mb (  5%)   64.87%  Filtering   1 s      55 Mb (  5%)   67.04%  Filtering   1 s      55 Mb (  5%)   69.20%  Filtering   1 s      55 Mb (  5%)   71.36%  Filtering   1 s      55 Mb (  5%)   73.52%  Filtering   1 s      55 Mb (  5%)   75.69%  Filtering   1 s      55 Mb (  5%)   77.85%  Filtering   2 s      55 Mb (  5%)   80.01%  Filtering   2 s      55 Mb (  5%)   82.17%  Filtering   2 s      55 Mb (  5%)   84.34%  Filtering   2 s      55 Mb (  5%)   86.50%  Filtering   2 s      55 Mb (  5%)   88.66%  Filtering   2 s      55 Mb (  5%)   90.82%  Filtering   2 s      55 Mb (  5%)   92.99%  Filtering   2 s      55 Mb (  5%)   95.15%  Filtering   2 s      55 Mb (  5%)   97.31%  Filtering   2 s      55 Mb (  5%)   99.47%  Filtering   2 s      55 Mb (  5%)  100.00%  Filtering
+   2 s      51 Mb (  5%)  2260784 filter hits
+   2 s      51 Mb (  5%)  Read filter hits
+   2 s      78 Mb (  7%)  2260784 filter hits
+   2 s      78 Mb (  7%)  Merge filter hits
+   3 s      82 Mb (  8%)  954106 trapezoids, total length 8037819
+   3 s      82 Mb (  8%)  Initializing trapezoid alignment
+   3 s     104 Mb ( 10%)    0.00%  Aligning trapezoids   3 s     104 Mb ( 10%)    0.00%  Aligning trapezoids   3 s     104 Mb ( 10%)    2.00%  Aligning trapezoids   3 s     104 Mb ( 10%)    4.00%  Aligning trapezoids   3 s     104 Mb ( 10%)    6.00%  Aligning trapezoids   3 s     104 Mb ( 10%)    8.00%  Aligning trapezoids   3 s     104 Mb ( 10%)   10.00%  Aligning trapezoids   4 s     104 Mb ( 10%)   12.00%  Aligning trapezoids   4 s     104 Mb ( 10%)   14.00%  Aligning trapezoids   4 s     104 Mb ( 10%)   16.00%  Aligning trapezoids   4 s     104 Mb ( 10%)   18.00%  Aligning trapezoids   4 s     104 Mb ( 10%)   20.00%  Aligning trapezoids   4 s     104 Mb ( 10%)   22.00%  Aligning trapezoids   4 s     104 Mb ( 10%)   24.00%  Aligning trapezoids   4 s     104 Mb ( 10%)   26.00%  Aligning trapezoids   4 s     104 Mb ( 10%)   28.00%  Aligning trapezoids   5 s     104 Mb ( 10%)   30.00%  Aligning trapezoids   5 s     104 Mb ( 10%)   32.00%  Aligning trapezoids   5 s     104 Mb ( 10%)   34.00%  Aligning trapezoids   5 s     104 Mb ( 10%)   36.00%  Aligning trapezoids   5 s     104 Mb ( 10%)   38.00%  Aligning trapezoids   5 s     104 Mb ( 10%)   40.00%  Aligning trapezoids   5 s     104 Mb ( 10%)   42.00%  Aligning trapezoids   5 s     104 Mb ( 10%)   44.00%  Aligning trapezoids   5 s     104 Mb ( 10%)   46.00%  Aligning trapezoids   6 s     104 Mb ( 10%)   48.00%  Aligning trapezoids   6 s     104 Mb ( 10%)   50.00%  Aligning trapezoids   6 s     104 Mb ( 10%)   52.00%  Aligning trapezoids   6 s     104 Mb ( 10%)   54.00%  Aligning trapezoids   6 s     104 Mb ( 10%)   56.00%  Aligning trapezoids   6 s     104 Mb ( 10%)   58.00%  Aligning trapezoids   6 s     104 Mb ( 10%)   60.00%  Aligning trapezoids   6 s     104 Mb ( 10%)   62.00%  Aligning trapezoids   6 s     104 Mb ( 10%)   64.00%  Aligning trapezoids   7 s     104 Mb ( 10%)   66.00%  Aligning trapezoids   7 s     104 Mb ( 10%)   68.00%  Aligning trapezoids   7 s     104 Mb ( 10%)   70.00%  Aligning trapezoids   7 s     104 Mb ( 10%)   72.00%  Aligning trapezoids   7 s     104 Mb ( 10%)   74.00%  Aligning trapezoids   7 s     104 Mb ( 10%)   76.00%  Aligning trapezoids   7 s     104 Mb ( 10%)   78.00%  Aligning trapezoids   7 s     104 Mb ( 10%)   80.00%  Aligning trapezoids   7 s     104 Mb ( 10%)   82.00%  Aligning trapezoids   8 s     104 Mb ( 10%)   84.00%  Aligning trapezoids   8 s     104 Mb ( 10%)   86.00%  Aligning trapezoids   8 s     104 Mb ( 10%)   88.00%  Aligning trapezoids   8 s     104 Mb ( 10%)   90.00%  Aligning trapezoids   8 s     104 Mb ( 10%)   92.00%  Aligning trapezoids   8 s     104 Mb ( 10%)   94.00%  Aligning trapezoids   8 s     104 Mb ( 10%)   96.00%  Aligning trapezoids   8 s     104 Mb ( 10%)   98.00%  Aligning trapezoids   9 s     104 Mb ( 10%)  100.00%  Aligning trapezoids   9 s     104 Mb ( 10%)  100.00%  Aligning trapezoids
+   9 s     104 Mb ( 10%)  Removing redundant hits
+   9 s     104 Mb ( 10%)  Sorting hits
+   9 s     104 Mb ( 10%)  10204 DP hits, 7699 accepted
+   9 s     104 Mb ( 10%)  0 discarded hits
+   9 s     104 Mb ( 10%)  Converting hits to images
+   9 s     104 Mb ( 10%)  Sorting images
+   9 s     104 Mb ( 10%)  Finding piles
+   9 s     104 Mb ( 10%)  10432 piles found
+   9 s     104 Mb ( 10%)  Building graph
+   9 s     104 Mb ( 10%)  Find connected components
+   9 s     104 Mb ( 10%)  593 connected components
+   9 s     104 Mb ( 10%)  Find arrays
+   9 s     104 Mb ( 10%)  19 arrays found
+   9 s     104 Mb ( 10%)  Creating report
+   9 s      61 Mb (  6%)  Done
+   9 s      61 Mb (  6%)  Elapsed time 9 secs, peak mem use 104 Mb

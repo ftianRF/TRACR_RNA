@@ -1,0 +1,38 @@
+
+pilercr v1.06
+http://www.drive5.com/piler
+Written by Robert C. Edgar
+This software is donated to the public domain.
+Please visit web site for requested citation.
+
+
+   0 s       6 Mb (  0%)  Reading sequences from input/asm/GCA_002426795.1.fa
+   0 s      44 Mb (  4%)  100.00%  
+   0 s      44 Mb (  4%)  25 sequences, total length 3818284 bases (4 Mb)
+   0 s      46 Mb (  4%)    0.00%  Allocating index   0 s      46 Mb (  4%)  100.00%  Allocating index
+   0 s      46 Mb (  4%)    0.00%  Filtering   0 s      46 Mb (  4%)    0.00%  Filtering   0 s      46 Mb (  4%)    5.24%  Filtering   0 s      46 Mb (  4%)   10.48%  Filtering   0 s      46 Mb (  4%)   15.71%  Filtering   1 s      46 Mb (  4%)   20.95%  Filtering   1 s      46 Mb (  4%)   26.19%  Filtering   1 s      46 Mb (  4%)   31.43%  Filtering   1 s      46 Mb (  4%)   36.67%  Filtering   1 s      46 Mb (  4%)   41.90%  Filtering   1 s      46 Mb (  4%)   47.14%  Filtering   1 s      46 Mb (  4%)   52.38%  Filtering   1 s      46 Mb (  4%)   57.62%  Filtering   1 s      46 Mb (  4%)   62.86%  Filtering   1 s      46 Mb (  4%)   68.09%  Filtering   1 s      46 Mb (  4%)   73.33%  Filtering   1 s      46 Mb (  4%)   78.57%  Filtering   1 s      46 Mb (  4%)   83.81%  Filtering   1 s      46 Mb (  4%)   89.05%  Filtering   1 s      46 Mb (  4%)   94.28%  Filtering   1 s      46 Mb (  4%)   99.52%  Filtering   1 s      46 Mb (  4%)  100.00%  Filtering
+   1 s      44 Mb (  4%)  798665 filter hits
+   1 s      44 Mb (  4%)  Read filter hits
+   1 s      54 Mb (  5%)  798665 filter hits
+   1 s      54 Mb (  5%)  Merge filter hits
+   1 s      58 Mb (  5%)  423986 trapezoids, total length 3429370
+   1 s      58 Mb (  5%)  Initializing trapezoid alignment
+
+*** Warning ***  Internal problem: in AlignTraps, b=0, truncating list
+   1 s      68 Mb (  6%)    0.00%  Aligning trapezoids   1 s      68 Mb (  6%)    0.00%  Aligning trapezoids   1 s      68 Mb (  6%)    2.00%  Aligning trapezoids   2 s      68 Mb (  6%)    4.00%  Aligning trapezoids   2 s      68 Mb (  6%)    6.00%  Aligning trapezoids   2 s      68 Mb (  6%)    8.00%  Aligning trapezoids   2 s      68 Mb (  6%)   10.00%  Aligning trapezoids   2 s      68 Mb (  6%)   12.00%  Aligning trapezoids   2 s      68 Mb (  6%)   14.00%  Aligning trapezoids   2 s      68 Mb (  6%)   16.00%  Aligning trapezoids   2 s      68 Mb (  6%)   18.00%  Aligning trapezoids   2 s      68 Mb (  6%)   20.00%  Aligning trapezoids   2 s      68 Mb (  6%)   22.00%  Aligning trapezoids   2 s      68 Mb (  6%)   24.00%  Aligning trapezoids   2 s      68 Mb (  6%)   26.00%  Aligning trapezoids   2 s      68 Mb (  6%)   28.00%  Aligning trapezoids   2 s      68 Mb (  6%)   30.00%  Aligning trapezoids   2 s      68 Mb (  6%)   32.00%  Aligning trapezoids   2 s      68 Mb (  6%)   34.00%  Aligning trapezoids   2 s      68 Mb (  6%)   36.00%  Aligning trapezoids   2 s      68 Mb (  6%)   38.00%  Aligning trapezoids   2 s      68 Mb (  6%)   40.00%  Aligning trapezoids   2 s      68 Mb (  6%)   42.00%  Aligning trapezoids   2 s      68 Mb (  6%)   44.00%  Aligning trapezoids   2 s      68 Mb (  6%)   46.00%  Aligning trapezoids   2 s      68 Mb (  6%)   48.00%  Aligning trapezoids   2 s      68 Mb (  6%)   50.00%  Aligning trapezoids   2 s      68 Mb (  6%)   52.00%  Aligning trapezoids   3 s      68 Mb (  6%)   54.00%  Aligning trapezoids   3 s      68 Mb (  6%)   56.00%  Aligning trapezoids   3 s      68 Mb (  6%)   58.00%  Aligning trapezoids   3 s      68 Mb (  6%)   60.00%  Aligning trapezoids   3 s      68 Mb (  6%)   62.00%  Aligning trapezoids   3 s      68 Mb (  6%)   64.00%  Aligning trapezoids   3 s      68 Mb (  6%)   66.00%  Aligning trapezoids   3 s      68 Mb (  6%)   68.00%  Aligning trapezoids   3 s      68 Mb (  6%)   70.00%  Aligning trapezoids   3 s      68 Mb (  6%)   72.00%  Aligning trapezoids   3 s      68 Mb (  6%)   74.00%  Aligning trapezoids   3 s      68 Mb (  6%)   76.00%  Aligning trapezoids   3 s      68 Mb (  6%)   78.00%  Aligning trapezoids   3 s      68 Mb (  6%)   80.00%  Aligning trapezoids   3 s      68 Mb (  6%)   82.00%  Aligning trapezoids   3 s      68 Mb (  6%)   84.00%  Aligning trapezoids   3 s      68 Mb (  6%)   86.00%  Aligning trapezoids   3 s      68 Mb (  6%)   88.00%  Aligning trapezoids   3 s      68 Mb (  6%)   90.00%  Aligning trapezoids   3 s      68 Mb (  6%)   92.00%  Aligning trapezoids   3 s      68 Mb (  6%)   94.00%  Aligning trapezoids   3 s      68 Mb (  6%)   96.00%  Aligning trapezoids   3 s      68 Mb (  6%)   98.00%  Aligning trapezoids   3 s      68 Mb (  6%)  100.00%  Aligning trapezoids   3 s      68 Mb (  6%)  100.00%  Aligning trapezoids
+   3 s      68 Mb (  6%)  Removing redundant hits
+   3 s      68 Mb (  6%)  Sorting hits
+   3 s      68 Mb (  6%)  1079 DP hits, 1023 accepted
+   3 s      68 Mb (  6%)  0 discarded hits
+   3 s      68 Mb (  6%)  Converting hits to images
+   3 s      68 Mb (  6%)  Sorting images
+   3 s      68 Mb (  6%)  Finding piles
+   3 s      68 Mb (  6%)  1644 piles found
+   3 s      68 Mb (  6%)  Building graph
+   3 s      68 Mb (  6%)  Find connected components
+   3 s      68 Mb (  6%)  33 connected components
+   3 s      68 Mb (  6%)  Find arrays
+   3 s      68 Mb (  6%)  1 arrays found
+   3 s      68 Mb (  6%)  Creating report
+   3 s      31 Mb (  3%)  Done
+   3 s      31 Mb (  3%)  Elapsed time 3 secs, peak mem use 68 Mb

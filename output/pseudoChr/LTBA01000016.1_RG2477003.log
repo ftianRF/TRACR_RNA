@@ -1,0 +1,9 @@
+
+
+Building a new DB, current time: 07/09/2022 19:36:58
+New DB name:   /home/ftian/lustre/02-CasNT/07-sgRNA/TRACR_RNA/output/pseudoChr/LTBA01000016.1_RG2477003.fasta
+New DB title:  output/pseudoChr/LTBA01000016.1_RG2477003.fasta
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000710011 seconds.

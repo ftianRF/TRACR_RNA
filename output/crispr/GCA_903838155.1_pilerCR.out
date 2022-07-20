@@ -1,0 +1,64 @@
+pilercr v1.06
+By Robert C. Edgar
+
+input/asm/GCA_903838155.1.fa: 2 putative CRISPR arrays found.
+
+
+
+DETAIL REPORT
+
+
+
+Array 1
+>CAILXL010000034.1 uncultured Oscillochloris sp. isolate LJ-3-9m_bin-009 genome assembly, contig: bin-009:034/946, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                   Spacer
+==========  ======  ======  ======  ==========    =====================================    ======
+         4      37   100.0      40         CGT    .....................................    CTCCAGGACGTGATCAACCACCCGTTTGAGTTGCTGCTCG
+        81      37   100.0      38  TTGCTGCTCG    .....................................    TTGCGGACGTGGTGTAGCGGTCGATCAGAGCCTTGACC
+       156      37   100.0      41  AGCCTTGACC    .....................................    CTACCTCGCCGTCCAACCCTACACCGACCAACCCCTCACCC
+       234      37   100.0          CCCCTCACCC    .....................................    GGTACCCCCAT
+==========  ======  ======  ======  ==========    =====================================
+         4      37              39                GTCATCATCCCCTGCGTTGCGGGGCAGTTCTTTGAAG
+
+
+Array 2
+>CAILXL010000619.1 uncultured Oscillochloris sp. isolate LJ-3-9m_bin-009 genome assembly, contig: bin-009:619/946, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                    Spacer
+==========  ======  ======  ======  ==========    ======================================    ======
+        31      38   100.0      32  TGTCAAGATG    ......................................    TCCCAGCGGGAACCATCGGGATTGAAGGAGAA
+       101      38    97.4      33  TGAAGGAGAA    .....................................G    CGGATCTGGCGAGCGATAGCCCGCTGACGTATC
+       172      38   100.0          CTGACGTATC    ......................................    GGGCGGAGTTCAGCGCCGCCCGTACCTCCTGCACCAT
+==========  ======  ======  ======  ==========    ======================================
+         3      38              32                CTTCAACCAAACAGCGATCCGCACGGCGGATTGAAACC
+
+
+SUMMARY BY SIMILARITY
+
+
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer  +  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  =  =========
+    1  CAILXL010000034.           4         267         4      37      39  +  GTCATCATCCCCTGCGTTGCGGGGCAGTTCTTTGAAG
+
+    2  CAILXL010000619.          31         179         3      38      32  +  CTTCAACCAAACAGCGATCCGCACGGCGGATTGAAACC
+
+
+
+SUMMARY BY POSITION
+
+
+
+>CAILXL010000034.1 uncultured Oscillochloris sp. isolate LJ-3-9m_bin-009 genome assembly, contig: bin-009:034/946, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    1  CAILXL010000034.           4         267         4      37      39              GTCATCATCCCCTGCGTTGCGGGGCAGTTCTTTGAAG
+
+
+>CAILXL010000619.1 uncultured Oscillochloris sp. isolate LJ-3-9m_bin-009 genome assembly, contig: bin-009:619/946, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    2  CAILXL010000619.          31         179         3      38      32              CTTCAACCAAACAGCGATCCGCACGGCGGATTGAAACC

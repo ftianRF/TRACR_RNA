@@ -1,0 +1,74 @@
+pilercr v1.06
+By Robert C. Edgar
+
+input/asm/GCA_002426795.1.fa: 1 putative CRISPR arrays found.
+
+
+
+DETAIL REPORT
+
+
+
+Array 1
+>DINQ01000011.1 MAG TPA_asm: Bacteroidales bacterium UBA5536 UBA5536_contig_404, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                  Spacer
+==========  ======  ======  ======  ==========    ====================================    ======
+     52859      36   100.0      30  TACTCAACAA    ....................................    AAAAGTACACCAGCACAACAAAACCGAACT
+     52925      36   100.0      30  AAACCGAACT    ....................................    CTTTACGGGGCGCTTGCTTCCGGGTGCCGA
+     52991      36   100.0      30  CGGGTGCCGA    ....................................    ACAACTTTGAAATTAACCTTCCATTAACCC
+     53057      36   100.0      30  CCATTAACCC    ....................................    AAAACTTTGCAAAATGAAATTGCAAGCCTA
+     53123      36   100.0      30  TGCAAGCCTA    ....................................    AATGCAAAAATTATCATTCGTCTCGAACTT
+     53189      36   100.0      30  TCTCGAACTT    ....................................    GGACAAGTAGGCATTGAGTATGACATTATG
+     53255      36   100.0      30  TGACATTATG    ....................................    TGATGTCGCGCATGAATGGGATACGTCTGG
+     53321      36   100.0      30  ATACGTCTGG    ....................................    TCCGGCTCTTTTTACTTGAGCATATTCACG
+     53387      36   100.0      28  CATATTCACG    ....................................    TTTTTTTCTAAGCTCGAGGAGTACATGT
+     53451      36   100.0      30  GAGTACATGT    ....................................    CCAGAACCGAACGCGACGGGCAGCACGTTT
+     53517      36   100.0      30  CAGCACGTTT    ....................................    GTTGGTGCTTTGCGCGCTGATTCGATAAGG
+     53583      36   100.0      30  TTCGATAAGG    ....................................    ATCATTTTTTTCGTGCCACAGCCCGACGGC
+     53649      36   100.0      29  GCCCGACGGC    ....................................    AGAGAGTATTTGCAAAATTGTCCGTTCAG
+     53714      36   100.0      30  GTCCGTTCAG    ....................................    TATGCTTACTTCATCGAGCGGTTTGATTTT
+     53780      36   100.0      29  GTTTGATTTT    ....................................    GGTGCGGTCGAAACGGTTGAGGCGCTGCA
+     53845      36   100.0      30  AGGCGCTGCA    ....................................    CCGCCAATCCACATCAATGCTTTTTGCCAC
+     53911      36   100.0      30  TTTTTGCCAC    ....................................    TCTTTACTGTCTGCAAAATATTGTTTAATA
+     53977      36   100.0      30  TTGTTTAATA    ....................................    AGACTGCCAGCGCGTTACAATCGAAACACA
+     54043      36   100.0      30  TCGAAACACA    ....................................    CCTGAGTTTCATAAGGCACTTAACGCTATT
+     54109      36   100.0      30  TAACGCTATT    ....................................    CTCGATCGCTTCAATTGCCGCGTGGTTGAG
+     54175      36   100.0      31  CGTGGTTGAG    ....................................    AATCAAAACAATTTTGCTGTGGTTTTTAGTT
+     54242      36   100.0      29  GTTTTTAGTT    ....................................    CTTCCGATTTTACCACCTTACGTAGCAGG
+     54307      36   100.0      30  ACGTAGCAGG    ....................................    TACGATTTGGAAAACGTTCGACTGCTGCCT
+     54373      36   100.0      30  ACTGCTGCCT    ....................................    CATTTCGTCGTCGGCCTGCTTACCGTTCAT
+     54439      36   100.0      29  TACCGTTCAT    ....................................    TTAAGCGTGTAGTATCATGGAAGAGTTAA
+     54504      36   100.0      30  GAAGAGTTAA    ....................................    GTGGAGGTGATGAAGAGCTAACCACACCCC
+     54570      36   100.0      30  ACCACACCCC    ....................................    TCAGAACCATGCCACATGCACTCATGCCGT
+     54636      36   100.0      30  CTCATGCCGT    ....................................    CTGGTAGAATGAATTTAATGTCCATAACCT
+     54702      36   100.0      29  TCCATAACCT    ....................................    CTGTTTTACTTCGTGTTGTTGGCTCATTA
+     54767      36   100.0      30  TGGCTCATTA    ....................................    AAACATGATCGCAACCATGAGGAAAACCGC
+     54833      36   100.0      30  GGAAAACCGC    ....................................    CAGCCGCCGACAACACCAAAACCGGAACCA
+     54899      36   100.0      30  ACCGGAACCA    ....................................    TCCTATCGATCACGCTCTTATGCACAAATG
+     54965      36   100.0      30  TGCACAAATG    ....................................    GTATTGGAAAGGCTTGTGAGTTCGGTTGCT
+     55031      36   100.0      29  TTCGGTTGCT    ....................................    TCGGTCCATTTTTCGTTGTAAGCGATAGT
+     55096      36   100.0          AAGCGATAGT    ....................................    AATAGAAGCA
+==========  ======  ======  ======  ==========    ====================================
+        35      36              29                GTTGTGATTTGATTAGGAATTCAAGCTTAAGACATT
+
+
+SUMMARY BY SIMILARITY
+
+
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer  +  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  =  =========
+    1  DINQ01000011.1 M       52859        2273        35      36      29  +  GTTGTGATTTGATTAGGAATTCAAGCTTAAGACATT
+
+
+
+SUMMARY BY POSITION
+
+
+
+>DINQ01000011.1 MAG TPA_asm: Bacteroidales bacterium UBA5536 UBA5536_contig_404, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    1  DINQ01000011.1 M       52859        2273        35      36      29              GTTGTGATTTGATTAGGAATTCAAGCTTAAGACATT

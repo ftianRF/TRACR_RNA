@@ -1,0 +1,144 @@
+pilercr v1.06
+By Robert C. Edgar
+
+input/asm/GCA_903819865.1.fa: 5 putative CRISPR arrays found.
+
+
+
+DETAIL REPORT
+
+
+
+Array 1
+>CAIJFF010000273.1 uncultured Oscillochloris sp. isolate LJ-7-9m_bin-0353 genome assembly, contig: bin-0353:273/645, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                   Spacer
+==========  ======  ======  ======  ==========    =====================================    ======
+      1579      37   100.0      41  TGGGGGTACC    .....................................    GGGTGAGGGGTTGGTCGGTGTAGGGTTGGACGGCGAGGTAG
+      1657      37   100.0      38  GGCGAGGTAG    .....................................    GGTCAAGGCTCTGATCGACCGCTACACCACGTCCGCAA
+      1732      37   100.0      40  ACGTCCGCAA    .....................................    CGAGCAGCAACTCAAACGGGTGGTTGATCACGTCCTGGAG
+      1809      37   100.0      39  CGTCCTGGAG    .....................................    ACGAGTGCGCCGGGGCTTGCCACGTCGCCACGGTGGGAG
+      1885      37   100.0      41  ACGGTGGGAG    .....................................    TACGATGACGATCTACGTGGAACACGGGAACGAGTTGTTCG
+      1963      37   100.0          GAGTTGTTCG    .....................................    GTTAAACAAGGCGTAGAACTCCAGCTCGTCCTGGCCG
+==========  ======  ======  ======  ==========    =====================================
+         6      37              39                CTTCAAAGAACTGCCCCGCAACGCAGGGGATGATGAC
+
+
+Array 2
+>CAIJFF010000526.1 uncultured Oscillochloris sp. isolate LJ-7-9m_bin-0353 genome assembly, contig: bin-0353:526/645, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                  Spacer
+==========  ======  ======  ======  ==========    ====================================    ======
+      2246      36   100.0      36  CGACCCGTCG    ....................................    AGAGGGCCAGTGCGGTGGCGGTGTCCTCGGTGAATA
+      2318      36   100.0      35  TCGGTGAATA    ....................................    TTTGCCATCCCGATCTCCTCACTTTATGCGATCTG
+      2389      36    97.2      37  ATGCGATCTG    ...................................A    CAACAATTATAGCTACGATGGCGCAAGCTGCGATGAT
+      2462      36   100.0          CTGCGATGAT    ....................................    CAGCCGACCG
+==========  ======  ======  ======  ==========    ====================================
+         4      36              36                GTTTCAGTATCCTCTTGCGGATCGTAGAGCTTGCGG
+
+
+Array 3
+>CAIJFF010000603.1 uncultured Oscillochloris sp. isolate LJ-7-9m_bin-0353 genome assembly, contig: bin-0353:603/645, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                  Spacer
+==========  ======  ======  ======  ==========    ====================================    ======
+        50      36   100.0      37  TTGCGCTCAA    ....................................    TTTTTATGGACACGGAACACTCCAAAGGACTGGCCCG
+       123      36   100.0      36  GACTGGCCCG    ....................................    CCAATAGCCGCAGCGTGGGCATGGGTAGGCGCGGGC
+       195      36   100.0      35  AGGCGCGGGC    ....................................    GTTGACTGCGCCCGGGGTGTGTCACCGTCCAGGGA
+       266      36   100.0      35  CGTCCAGGGA    ....................................    GTTTTACGGCACGGCCAGTGCGACCACGATGCAAC
+       337      36   100.0      36  ACGATGCAAC    ....................................    ATCGCCCCACCCCGGAGGCCCGCGAGTGCCGGAAAC
+       409      36   100.0      35  TGCCGGAAAC    ....................................    TGGTATCTCGTATCTAAACGGAGGTAAAAATGTCC
+       480      36   100.0      38  AAAAATGTCC    ....................................    CGTCGCTCCATTTCTGTTTGGAGTTCTGCCAGCATCGC
+       554      36   100.0      35  CCAGCATCGC    ....................................    CTGTCGATGCGCTGATGATGATGTTGCGGGTAGAC
+       625      36   100.0      36  GCGGGTAGAC    ....................................    CAGACCATTACCGAGACGATCCTCCCGGCAGGGAGC
+       697      36   100.0      36  GGCAGGGAGC    ....................................    TCGTCTACCGCGCTGGCATCTATTTCGGGCCATTGC
+       769      36   100.0      38  GGGCCATTGC    ....................................    CAGCTCTACAGCGAGGACGAGGAAGCGCCGTTCTAGGC
+       843      36   100.0          CGTTCTAGGC    ....................................    AAACTTCTTC
+==========  ======  ======  ======  ==========    ====================================
+        12      36              36                TTCAACCAAACAGCGATCCGCACGGCGGATTGAAAC
+
+
+Array 4
+>CAIJFF010000603.1 uncultured Oscillochloris sp. isolate LJ-7-9m_bin-0353 genome assembly, contig: bin-0353:603/645, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                    Spacer
+==========  ======  ======  ======  ==========    ======================================    ======
+       916      38   100.0      35  CCGCTCTCTC    ......................................    AGATACGTGGTGTGCCCATCCTGACTGTCAAGATG
+       989      38   100.0      32  TGTCAAGATG    ......................................    TCCCAGCGGGAACCATCGGGATTGAAGGAGAA
+      1059      38    97.4      33  TGAAGGAGAA    .....................................G    CGGATCTGGCGAGCGATAGCCCGCTGACGTATC
+      1130      38   100.0          CTGACGTATC    ......................................    GGGCGGAGTTCAGCGCCGCCCGTACCTCCTGCACCAT
+==========  ======  ======  ======  ==========    ======================================
+         4      38              33                CTTCAACCAAACAGCGATCCGCACGGCGGATTGAAACC
+
+
+Array 5
+>CAIJFF010000623.1 uncultured Oscillochloris sp. isolate LJ-7-9m_bin-0353 genome assembly, contig: bin-0353:623/645, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                  Spacer
+==========  ======  ======  ======  ==========    ====================================    ======
+     37150      36   100.0      37  GAGTGGCGGG    ....................................    TATGATTTTGAGGAGAATCAGTGCTGGAAGATGCCAG
+     37223      36   100.0      37  AAGATGCCAG    ....................................    TTGGGGCAACGCAGAATACATCAATCGCGATGGGGGC
+     37296      36   100.0      34  CGATGGGGGC    ....................................    CTACTGTAGGAGTCACCGCCGGAACCGAAACAAG
+     37366      36   100.0      36  CCGAAACAAG    ....................................    CGGTACAACTTGCCACGCTTCAAGGCGGCGCTTGAG
+     37438      36   100.0      36  GGCGCTTGAG    ....................................    AACTCCTCAGAGGGGTTTCTGAGCTGGCGCTAGATT
+     37510      36   100.0      37  GCGCTAGATT    ....................................    ATTGCGGATTATTGGCATATATAGGATATGTTTGTTA
+     37583      36   100.0      34  ATGTTTGTTA    ....................................    TCCTAAAGACCATCGGTATCTTGCCTTGTAAGGC
+     37653      36   100.0      33  CTTGTAAGGC    ....................................    AGGTGGTGGCACCTGTGAATATGTTGCGCCAGA
+     37722      36   100.0      36  TTGCGCCAGA    ....................................    ACTTTCCATTATAGTCTTTTGTGAGGTTATAGTTCT
+     37794      36   100.0      36  TTATAGTTCT    ....................................    TGATGCTCGGTGTACTCTATGGCCCCCACCCAATCG
+     37866      36   100.0      34  CACCCAATCG    ....................................    TGATAGTTTCGTATGTTCGACAATGTTCCACTTG
+     37936      36   100.0      36  GTTCCACTTG    ....................................    TTCCGCACGTGTGCGGATTATGGGATTAACCGCCTA
+     38008      36   100.0          TAACCGCCTA    ....................................    TCTGCTCGGGTGTGGGGGTCGCGGTGGGGAGTGGG
+==========  ======  ======  ======  ==========    ====================================
+        13      36              35                CCGCAAGCTCTACGATCCGCAAGAGGATACTGAAAC
+
+
+SUMMARY BY SIMILARITY
+
+
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer  +  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  =  =========
+    2  CAIJFF010000526.        2246         252         4      36      36  +  GTTTCAGTATCCTCTTGCGGATCGTAGAGCTTGCGG
+    5  CAIJFF010000623.       37150         894        13      36      35  -  GTTTCAGTATCCTCTTGCGGATCGTAGAGCTTGCGG
+                                                                              ************************************
+
+    3  CAIJFF010000603.          50         829        12      36      36  +  -TTCAACCAAACAGCGATCCGCACGGCGGATTGAAAC-
+    4  CAIJFF010000603.         916         252         4      38      33  +  CTTCAACCAAACAGCGATCCGCACGGCGGATTGAAACC
+                                                                               ************************************ 
+
+    1  CAIJFF010000273.        1579         421         6      37      39  +  CTTCAAAGAACTGCCCCGCAACGCAGGGGATGATGAC
+
+
+
+SUMMARY BY POSITION
+
+
+
+>CAIJFF010000273.1 uncultured Oscillochloris sp. isolate LJ-7-9m_bin-0353 genome assembly, contig: bin-0353:273/645, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    1  CAIJFF010000273.        1579         421         6      37      39              CTTCAAAGAACTGCCCCGCAACGCAGGGGATGATGAC
+
+
+>CAIJFF010000526.1 uncultured Oscillochloris sp. isolate LJ-7-9m_bin-0353 genome assembly, contig: bin-0353:526/645, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    2  CAIJFF010000526.        2246         252         4      36      36              GTTTCAGTATCCTCTTGCGGATCGTAGAGCTTGCGG
+
+
+>CAIJFF010000603.1 uncultured Oscillochloris sp. isolate LJ-7-9m_bin-0353 genome assembly, contig: bin-0353:603/645, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    3  CAIJFF010000603.          50         829        12      36      36              TTCAACCAAACAGCGATCCGCACGGCGGATTGAAAC
+    4  CAIJFF010000603.         916         252         4      38      33           1  CTTCAACCAAACAGCGATCCGCACGGCGGATTGAAACC
+
+
+>CAIJFF010000623.1 uncultured Oscillochloris sp. isolate LJ-7-9m_bin-0353 genome assembly, contig: bin-0353:623/645, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    5  CAIJFF010000623.       37150         894        13      36      35              CCGCAAGCTCTACGATCCGCAAGAGGATACTGAAAC

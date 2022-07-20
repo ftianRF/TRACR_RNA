@@ -1,0 +1,231 @@
+pilercr v1.06
+By Robert C. Edgar
+
+input/asm/GCA_001594005.1.fa: 4 putative CRISPR arrays found.
+
+
+
+DETAIL REPORT
+
+
+
+Array 1
+>LTBA01000005.1 Clostridium tepidiprofundi DSM 19306 CLTE_contig000005, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                              Spacer
+==========  ======  ======  ======  ==========    ================================    ======
+     79737      32    93.8      19  AGGTTTTGTG    .................G...........T..    TGTGGAGGCTGAAGATATT
+     79788      32    90.6      19  TGAAGATATT    .TA...........................G.    TGTAATATGCAAGAGTATA
+     79839      32    87.5          CAAGAGTATA    .......TG............G..G.......    CGTACATTC
+==========  ======  ======  ======  ==========    ================================
+         3      32              19                AAGATAAATGGTTCAGGAGATATTAATGGAAA
+
+
+Array 2
+>LTBA01000009.1 Clostridium tepidiprofundi DSM 19306 CLTE_contig000009, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                            Spacer
+==========  ======  ======  ======  ==========    ==============================    ======
+     80493      30    86.7      34  TATCAATGTT    ...............A..C...T..T....    TTAAACAAACATTTTACGTCTATTCGAGATTTTC
+     80557      30    93.3      36  CGAGATTTTC    ......................T..T....    TAGTCAAGATTAGATATTCTACGCTGTTTTAAATAA
+     80623      30    96.7      34  TTTTAAATAA    ........G.....................    CTAGAATCTACAATCTGTGCCGCGAGGTTGTAAA
+     80687      30    93.3          AGGTTGTAAA    ...T....G.....................    GGCTTGTACA
+==========  ======  ======  ======  ==========    ==============================
+         4      30              34                GTGCTTTAATAAATTGAGTTCACTGCTAGG
+
+
+Array 3
+>LTBA01000023.1 Clostridium tepidiprofundi DSM 19306 CLTE_contig000023, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                           Spacer
+==========  ======  ======  ======  ==========    =============================    ======
+     35581      29   100.0      37  TAAGTTTTGA    .............................    ATAGAAGGCAGGAAGAAGGGTATTAATAGCAACTATC
+     35647      29   100.0      36  AGCAACTATC    .............................    TGAACATAACATAGTGATGAAATTATCTGAATTAGT
+     35712      29   100.0      39  CTGAATTAGT    .............................    TTGCAGTCCCTAATCCAACTATAGGAGCAGTTACCTTCA
+     35780      29   100.0      37  GTTACCTTCA    .............................    GAACTTAAGACAGTTCCGATATAGTAAAGGGTTGCAA
+     35846      29   100.0      39  AGGGTTGCAA    .............................    CCTAGAACTAAAAAGAATCATCAGGTAATTAGATATAGA
+     35914      29   100.0      36  TAGATATAGA    .............................    AATATTGCGAAGAAAAGTTGAATTTACTATACAGAA
+     35979      29   100.0      35  CTATACAGAA    .............................    ATATTTGTGATGTAATATGTAAGGCGGACAAACAT
+     36043      29   100.0      36  GGACAAACAT    .............................    AAAATAAAAAAGTTACAGATGAACAAATATTTCTTA
+     36108      29   100.0      36  ATATTTCTTA    .............................    TAAAAAATTTGTATGAAGAAGAATTTCAGCTTTGCT
+     36173      29   100.0      37  CAGCTTTGCT    .............................    ACAATATCTGTCTATACAAGAAGAACATCTCGAAACA
+     36239      29   100.0      35  TCTCGAAACA    .............................    AATTTTGAACCAGTTTTTCAGAAGAATATTTTAGA
+     36303      29   100.0      37  ATATTTTAGA    .............................    CTCCTTGATTTTATCTGCACCAATCAATGTTTGGGAT
+     36369      29   100.0      35  TGTTTGGGAT    .............................    TTGCGAAAAAGGAAGTGAAAAAATGGCACTTGATA
+     36433      29   100.0      36  GCACTTGATA    .............................    GTACCCATGATTACCAACCATTAAATCATTATCCGT
+     36498      29   100.0      37  CATTATCCGT    .............................    AACCTTCTTGGGCAACTGTGTATATAACCTTTCCATT
+     36564      29   100.0      36  CCTTTCCATT    .............................    TTGATTCCTTATAGGTATTCTAAAAAGGGAAAGAAT
+     36629      29   100.0      37  GGGAAAGAAT    .............................    TTATATTCAGCTATTAATTTTTCAAGTTCATCACCAT
+     36695      29   100.0      39  TCATCACCAT    .............................    TATTAAGCAATTTTGCTATAACTCTAGCGTCATTTTCAA
+     36763      29   100.0      39  TCATTTTCAA    .............................    ATAATAAAAAAGTGCTATATGATACAAAGAATTAATTAA
+     36831      29   100.0      38  AATTAATTAA    .............................    GATCATACGAACAAAAAGGGGATATGTCGTTATAAATA
+     36898      29   100.0      37  GTTATAAATA    .............................    AAAGGTACAGACTATAATATGCCGACTCAAAAAGCTA
+     36964      29   100.0      36  CAAAAAGCTA    .............................    CTATTAGCTGTTTAACTTCTGCAAAGCTACCTTTAT
+     37029      29   100.0      37  CTACCTTTAT    .............................    AATATTCCTCCAGCTCATCCTCAGTCAATAAATCCTC
+     37095      29   100.0      36  ATAAATCCTC    .............................    TTATAATATTTATTTTAAATGGGAACAGGCTTTTAA
+     37160      29   100.0      38  AGGCTTTTAA    .............................    CCGTAAGCCACAACTTTAACGTTATCTTCGTATTCACA
+     37227      29   100.0      38  CGTATTCACA    .............................    GGAATTAAAAGACTATCAAACTTTGATTTTTAAAGGAC
+     37294      29   100.0      38  TTTAAAGGAC    .............................    AAAGAATAGAAAGAAAAATAAATATATAAATTCTTTTT
+     37361      29   100.0      37  AATTCTTTTT    .............................    TATAATAGAAGGCTCTTAATATGTTTAATATATTTTC
+     37427      29   100.0      38  ATATATTTTC    .............................    CAAACATAACAGTTTACATATTCACATATTTCTTGATT
+     37494      29   100.0      37  TTTCTTGATT    .............................    CATTAGATTTTTTAGATCTAAACCCAAGTGCTAATGT
+     37560      29   100.0      36  GTGCTAATGT    .............................    ATAGAAAAGGTGTTATAATGCCTAAACGAATAAATA
+     37625      29   100.0      35  CGAATAAATA    .............................    CCTTTTACGATAACAGAAAAATCCTCCGCATCCAA
+     37689      29   100.0      37  CCGCATCCAA    .............................    AAATAGAAAGGCTTCTAAAAACTTATATACATTACAT
+     37755      29   100.0      36  TACATTACAT    .............................    TATTCAAGAGCCTATAGGGAAAATAGCGTCCCTTGA
+     37820      29   100.0      37  CGTCCCTTGA    .............................    CTGCAAGCGAAAATTGTTATGCAAGAGAAATTAGAGC
+     37886      29   100.0      36  AAATTAGAGC    .............................    GCGTATGCAAGGTGGAAGAATAAGAAGTGTAGAGGA
+     37951      29   100.0      36  GTGTAGAGGA    .............................    CCAAAGGAATAGAAGTTATATATATGCCCTATGTTG
+     38016      29   100.0      37  CCCTATGTTG    .............................    TGGTATGGAGCAATATTAAAAACAATATAAAAGAACA
+     38082      29   100.0      37  TAAAAGAACA    .............................    AGAAATGAACAGAAATCACTATGGCAATGCTTATGTG
+     38148      29   100.0      36  TGCTTATGTG    .............................    ATAATATGTTTAAAAATCTTAAAATAGTAATGAAAA
+     38213      29   100.0      39  GTAATGAAAA    .............................    CAGAGGAAGAAATACAGAGCTTATTAAAGTTCAAAGAAA
+     38281      29   100.0      38  TTCAAAGAAA    .............................    TCTAAAACTGCAAATACAATAGTGAAAAGGGATAGTGT
+     38348      29   100.0      38  GGGATAGTGT    .............................    TCGAAAAACTTGCTAGAAAACTTGATGTTAGAAGTTTA
+     38415      29   100.0      37  TAGAAGTTTA    .............................    ACTCAACAAGTTCTTTTGGTTCAATTTCCCCAAAAAC
+     38481      29   100.0      38  CCCCAAAAAC    .............................    TGGAGAAATTTGGAAGTAACATACATTTGTGGAGCAAC
+     38548      29   100.0      36  GTGGAGCAAC    .............................    GAGTTTGCGTATACAAGATATGCTAAACTATCTAGA
+     38613      29   100.0      36  ACTATCTAGA    .............................    TGAAATATTCATCCCTTTTATAATTTCAAATATCGT
+     38678      29   100.0      36  CAAATATCGT    .............................    TGAAACATGGTACACAGGAGATGAAGCAGTTGAAAA
+     38743      29   100.0      35  CAGTTGAAAA    .............................    GTATAACGCCCTAGCTGCTTCAATGCTTCGATAAC
+     38807      29   100.0      35  CTTCGATAAC    .............................    CAAGCTTCGTTTTCTTATGTGTTTCAAAATCCTTA
+     38871      29   100.0      38  AAAATCCTTA    .............................    TCACTAATAAAAGAAAATATCCACCTAACTGATTTTAT
+     38938      29   100.0      38  CTGATTTTAT    .............................    CAATTCGCCTCCCCAAGCTATTAACCTTCTGTAAGCTA
+     39005      29   100.0      37  CTGTAAGCTA    .............................    GATATCATTGGTCATAAGTTAATAAAGCCTCCTTTCA
+     39071      29   100.0      37  CCTCCTTTCA    .............................    TCAATTCAAATACAAATAAGGACTTTTTTAAGTGCTT
+     39137      29   100.0      36  TTAAGTGCTT    .............................    GACAGTATTCCTGATGTGTATCAAGCTAATGCAGTA
+     39202      29   100.0      36  TAATGCAGTA    .............................    TTTAAATTCAGAGGTAGAAGAATAGATAATAAGGAA
+     39267      29   100.0      36  TAATAAGGAA    .............................    AGAGCCACACATATCTATATTTTCCATTAGATTTTT
+     39332      29   100.0      37  TTAGATTTTT    .............................    AAGGCAAGAAATACGTAGCGCAGATATGTTTCGAGAC
+     39398      29   100.0      37  GTTTCGAGAC    .............................    TGCGTTTAAAATATTATCAATAACTATCCGTCCATTA
+     39464      29   100.0      37  CCGTCCATTA    .............................    TTAGGCTTTAATAGAAATGGGACTATGCACATTAGTT
+     39530      29   100.0      37  CACATTAGTT    .............................    ATGGAACAGGTGAAGCAAATACTATATTCTCAACTCT
+     39596      29   100.0      37  TCTCAACTCT    .............................    CGTTCAGCAAATTTCAGTTGAAAATTTAAAAAAGGGA
+     39662      29   100.0      37  AAAAAAGGGA    .............................    GTAAACAAGTTACCTAGCTGGACTTATAAACATTTGT
+     39728      29   100.0      37  AAACATTTGT    .............................    ATTTGTATTTAGACCCAAGATGCTTTGAAGAATATTT
+     39794      29   100.0      38  AAGAATATTT    .............................    GTTCTAAAATCCTAAAAATTTTGAAATGTTCTGAGCCT
+     39861      29   100.0      37  TTCTGAGCCT    .............................    ATGGAACAGGTGAAGCAAATACTATATTCTCAACTCT
+     39927      29   100.0          TCTCAACTCT    .............................    CAGTTGGAGG
+==========  ======  ======  ======  ==========    =============================
+        67      29              36                ATTTACATCTCACATAGTTAATATAAAAC
+
+
+Array 4
+>LTBA01000026.1 Clostridium tepidiprofundi DSM 19306 CLTE_contig000026, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                           Spacer
+==========  ======  ======  ======  ==========    =============================    ======
+      6928      29   100.0      37  ATTGTTATAT    .............................    TACATTTGTATGGAATAATAGGAATTGTGGGACTTTA
+      6994      29   100.0      35  TGGGACTTTA    .............................    ATAAAAACCTTGATGATGATTTACCTGAAAGTTTA
+      7058      29   100.0      37  TGAAAGTTTA    .............................    AAAATATTAAAAAGCAACAAAAAGAAAACGAAATTAA
+      7124      29   100.0      37  ACGAAATTAA    .............................    TAGCTGTCCCACCAAAAGTATTTAACTTTTCACCTTT
+      7190      29   100.0      37  TTTCACCTTT    .............................    TTTAGAGGTCAGTTTGCTAATGCTTTGCTTTGTCTAG
+      7256      29   100.0      37  CTTTGTCTAG    .............................    GTTACAGGTATTTTAGATAAAACAATGACAGGATTAA
+      7322      29   100.0      38  ACAGGATTAA    .............................    CAAATGGGCGTAAGATGTTTGTACAAACAGATGAACTT
+      7389      29   100.0      36  AGATGAACTT    .............................    AGTTCTGTAATAAACAAACCTGCCTAATTCTGTCAT
+      7454      29   100.0      37  ATTCTGTCAT    .............................    TAAGAAAACATGAATTGTGGTTGAATAATAAAAAAGA
+      7520      29   100.0      36  ATAAAAAAGA    .............................    TATTGGTATGTTATTTGTAAAATAAAAAAAGAAAGG
+      7585      29   100.0      38  AAAAGAAAGG    .............................    TTGGCAACTACTTTCAATTTAATATAAAAGGTTCTAAC
+      7652      29   100.0      37  AGGTTCTAAC    .............................    GTGATTTTGGTTGGTTGTATGGTATGGTTTTAGCAGA
+      7718      29   100.0      37  TTTTAGCAGA    .............................    AAATAGCGTATGATTTATTATGTCAGGCAAATACAAA
+      7784      29   100.0      36  CAAATACAAA    .............................    GTCAAGTGGTTTTGATATAGAAACAAAAAATCATAC
+      7849      29   100.0      37  AAAATCATAC    .............................    GTTATCTTCATTATATAGTACAAAAAGGGGATAGCGA
+      7915      29   100.0      38  GGGATAGCGA    .............................    TTTAAAACTCTTGCTTCGTTTTTAGGCATTATAATTAT
+      7982      29   100.0      37  TTATAATTAT    .............................    TTATTTTTAGATATTAAGGAGGAATTATTATGAATGA
+      8048      29   100.0      37  TTATGAATGA    .............................    TCCATCAGGTCTTTTAAATTTTGCAAATTCTGCACAA
+      8114      29   100.0      37  TTCTGCACAA    .............................    ATGGAACCGGTGAAGCAAACACTATATTTTCAACTTT
+      8180      29   100.0      37  TTTCAACTTT    .............................    ACCGAAGAGTTCCAGGCAATGGATATAAAACATCCAA
+      8246      29   100.0      37  AAACATCCAA    .............................    TAGACAAGGGAAGAATAATTTAAAGCCCTGTAAACAA
+      8312      29   100.0      37  CTGTAAACAA    .............................    GGATATTAAACGTACTTATCAAAGACATACCGAGAGT
+      8378      29   100.0      39  TACCGAGAGT    .............................    TTTTATAAATTAATATAAGGAGTTGATTATTATGTATGT
+      8446      29   100.0      37  TTATGTATGT    .............................    TTGTTTTCAATGAAGGGAATAAAAAGAGAGTCCACAT
+      8512      29   100.0      37  GAGTCCACAT    .............................    AGGAGTTATGAATCAATCAAAAGAAAGGCTTTTAGAC
+      8578      29   100.0      35  GCTTTTAGAC    .............................    GCATACTATATTAAAAGGATATATAAAAGATAAAA
+      8642      29   100.0      37  AAAGATAAAA    .............................    TCGCCCATTTTTCAATAAATTTTATTTCTTCTTCAAA
+      8708      29   100.0      38  CTTCTTCAAA    .............................    TTTTGACACACAACAAAAAATTGTGTGTCAAAAAAGTA
+      8775      29   100.0      37  CAAAAAAGTA    .............................    ATATCAATGATGATATAATTTTGTTTCAATCTGATTT
+      8841      29   100.0      37  AATCTGATTT    .............................    GGAGTAGGAATTGTAGATACAGAAATAACTGATTATA
+      8907      29   100.0      37  ACTGATTATA    .............................    TATTATGTATACTAACAAAATTACATAATAATAATTA
+      8973      29   100.0      37  ATAATAATTA    .............................    TTAAATACCAAACAACGTATAAAGAATCACGTGGCTA
+      9039      29   100.0      36  CACGTGGCTA    .............................    AGAAAAACGTACTATATTAAAAGATTTAGATTTGAG
+      9104      29   100.0      36  TAGATTTGAG    .............................    AAAATAGTTGAAGTTAAAAATTTCAATGAAAATAGA
+      9169      29   100.0      37  TGAAAATAGA    .............................    AAGCTGTTCAACAAATTACCAAAGAGGATTTAAGGAA
+      9235      29   100.0      35  ATTTAAGGAA    .............................    GTCAATAGGGGAGAGTTTAAATAAATGTGTAGTAG
+      9299      29   100.0      35  TGTGTAGTAG    .............................    TTACTTATAATAGGAGTAAGGCTTATTTAATTTTA
+      9363      29   100.0      37  TTTAATTTTA    .............................    GGGTGTATGAGTGTAAGGCAGAAGATTTTGTGGTGTA
+      9429      29   100.0      36  TTGTGGTGTA    .............................    TCCAAAGGTTGATACAGAACCAAAAGATTCAAAAGG
+      9494      29   100.0      37  ATTCAAAAGG    .............................    TAAAATAAATAATTAAAAGTTTTTTAAAATTATTTAA
+      9560      29   100.0      37  AATTATTTAA    .............................    AAATTTTTCCAAATTCCTCACATTCACCAACTTTTGA
+      9626      29   100.0      38  CAACTTTTGA    .............................    AGAAAATGCACAGAAAAGAAAAGAAGAACGCAAGGAAA
+      9693      29   100.0      36  CGCAAGGAAA    .............................    TATATCCTGATTTTAATATTAAAAAGTCATTCAAAC
+      9758      29   100.0      35  TCATTCAAAC    .............................    TTATTGAGAAATTTATTGAAAGAAGGTTGATAAAA
+      9822      29   100.0      35  GTTGATAAAA    .............................    CCATAGACGCAAATAACTGTATTCCGGGGACTCAA
+      9886      29   100.0      36  GGGGACTCAA    .............................    GGAGTTTGACGACTTAATTGATTTAAGAAGTTTAAT
+      9951      29   100.0      38  GAAGTTTAAT    .............................    ATAAATTCATTACGACTTGAGCCGTAATGCAATAAATG
+     10018      29   100.0      36  GCAATAAATG    .............................    TCGAGCCTGATGATATAGAGATTTATAACAATGTAA
+     10083      29   100.0      35  AACAATGTAA    .............................    CTAAAATGATGGAGAGTTTAACTGAAGAAGTTCTT
+     10147      29   100.0      37  AGAAGTTCTT    .............................    CACCACCCTTATCACGACACGTTAGTGCCAACAAGTA
+     10213      29   100.0      36  CCAACAAGTA    .............................    TAAGGTAATGAAGATAGTTTGTAAAGAGATTCCGAA
+     10278      29   100.0      38  AGATTCCGAA    .............................    GTATGTGAAACACAATATTACGGTGTAGATTCTCAAAT
+     10345      29   100.0      37  ATTCTCAAAT    .............................    ATACAAATGATAATGACTTTAATCAAAGATTACTGTA
+     10411      29   100.0      36  GATTACTGTA    .............................    TTTGTTAGATTTCTATAATCAAGTATTTGAAGATGA
+     10476      29   100.0      38  TTGAAGATGA    .............................    TTCGAACCTATTTGATAACTTACACATGCTAACAAGTA
+     10543      29   100.0      37  CTAACAAGTA    .............................    TTACATATGAGAATATAGCTAGGAGGAGTGATTATAA
+     10609      29   100.0      37  GTGATTATAA    .............................    TGTTTGATAAGATAGTCAAGTTTTTAAGTACATATAA
+     10675      29   100.0      38  GTACATATAA    .............................    TATGTATGGTTGAAATATCTACTTAGAGAAGGTAGATA
+     10742      29   100.0      37  AAGGTAGATA    .............................    AAAGTATAGATGGAGATGAGCATTTAAATGGATATAC
+     10808      29   100.0      36  ATGGATATAC    .............................    TCTTAGTTCCACCACAGGGTTGGGATAAAGAACGTA
+     10873      29   100.0      35  AAAGAACGTA    .............................    CAGAGTATAAAGGACAAGATGATATTCAACCTACA
+     10937      29   100.0      37  TCAACCTACA    .............................    CTTAATGAAGAAATTAAATTTAGATGTATTTACGTTT
+     11003      29   100.0      37  ATTTACGTTT    .............................    AAAATAATATAGAAGTTCTTACGGATAAATGTATAAA
+     11069      29   100.0          AATGTATAAA    .............................    CCTAAAAAAT
+==========  ======  ======  ======  ==========    =============================
+        64      29              36                ATTTACATCTCACATAGTTAATATAAAAC
+
+
+SUMMARY BY SIMILARITY
+
+
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer  +  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  =  =========
+    3  LTBA01000023.1 C       35581        4375        67      29      36  +  ATTTACATCTCACATAGTTAATATAAAAC
+    4  LTBA01000026.1 C        6928        4170        64      29      36  +  ATTTACATCTCACATAGTTAATATAAAAC
+                                                                              *****************************
+
+    1  LTBA01000005.1 C       79737         134         3      32      19  +  AAGATAAATGGTTCAGGAGATATTAATGGAAA
+
+    2  LTBA01000009.1 C       80493         224         4      30      34  +  GTGCTTTAATAAATTGAGTTCACTGCTAGG
+
+
+
+SUMMARY BY POSITION
+
+
+
+>LTBA01000005.1 Clostridium tepidiprofundi DSM 19306 CLTE_contig000005, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    1  LTBA01000005.1 C       79737         134         3      32      19              AAGATAAATGGTTCAGGAGATATTAATGGAAA
+
+
+>LTBA01000009.1 Clostridium tepidiprofundi DSM 19306 CLTE_contig000009, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    2  LTBA01000009.1 C       80493         224         4      30      34              GTGCTTTAATAAATTGAGTTCACTGCTAGG
+
+
+>LTBA01000023.1 Clostridium tepidiprofundi DSM 19306 CLTE_contig000023, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    3  LTBA01000023.1 C       35581        4375        67      29      36              ATTTACATCTCACATAGTTAATATAAAAC
+
+
+>LTBA01000026.1 Clostridium tepidiprofundi DSM 19306 CLTE_contig000026, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    4  LTBA01000026.1 C        6928        4170        64      29      36              ATTTACATCTCACATAGTTAATATAAAAC

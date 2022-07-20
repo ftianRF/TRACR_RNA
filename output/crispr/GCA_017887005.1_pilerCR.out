@@ -1,0 +1,48 @@
+pilercr v1.06
+By Robert C. Edgar
+
+input/asm/GCA_017887005.1.fa: 1 putative CRISPR arrays found.
+
+
+
+DETAIL REPORT
+
+
+
+Array 1
+>JAGHIW010000049.1 Anaeromassilibacillus sp. isolate MAG.406 k127_134464, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                              Spacer
+==========  ======  ======  ======  ==========    ================================    ======
+       626      32    96.9      35  TAGGGGTGGA    ...................T............    CGCGTCAAACAGGATAATGCGCGGAACGTCCTGCA
+       693      32    96.9      38  ACGTCCTGCA    ...................T............    CTTGCCAACATCCTGAATACCAGTAACAAATGTATCAA
+       763      32    96.9      35  AATGTATCAA    ...................T............    CGAAGAGATAAGCTCATAAAGCGCGCGCTAAATCC
+       830      32    96.9      36  CGCTAAATCC    ...................T............    CAAAGACTGCTTACGCACCCCTACCAGCTCAGGCAG
+       898      32   100.0      33  GCTCAGGCAG    ................................    AGTATCGAAAACCTTGGAACCATATGGAGTAAA
+       963      32   100.0      38  ATGGAGTAAA    ................................    CTTTATTGCAAAATAAGCTGATATTTCGAAAAGATAAA
+      1033      32    90.6      40  AAAAGATAAA    .............................---    GAACGTTGCAGGAGAGCCAATCTAAGAAGAACACTTCCCC
+      1105      32    87.5      36  ACACTTCCCC    .......T...AA.....C.............    CTTTTGAGCTTTGGGCGTACTAGCAAACGATGCGAG
+      1173      32    93.8          ACGATGCGAG    ......C.T.......................    GCCAAACAACAGCGAGTTTCATGGTTAGAAGTACG
+==========  ======  ======  ======  ==========    ================================
+         9      32              36                GTTACAACCCACGCCCCGTCAGGGGACGGAAA
+
+
+SUMMARY BY SIMILARITY
+
+
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer  +  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  =  =========
+    1  JAGHIW010000049.         626         576         9      32      36  +  GTTACAACCCACGCCCCGTCAGGGGACGGAAA
+
+
+
+SUMMARY BY POSITION
+
+
+
+>JAGHIW010000049.1 Anaeromassilibacillus sp. isolate MAG.406 k127_134464, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    1  JAGHIW010000049.         626         576         9      32      36              GTTACAACCCACGCCCCGTCAGGGGACGGAAA

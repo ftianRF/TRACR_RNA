@@ -1,0 +1,484 @@
+pilercr v1.06
+By Robert C. Edgar
+
+input/asm/GCA_010672215.1.fa: 19 putative CRISPR arrays found.
+
+
+
+DETAIL REPORT
+
+
+
+Array 1
+>JAAHHI010000111.1 MAG: Okeania sp. SIO3C4 3C4_NODE_111, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                  Spacer
+==========  ======  ======  ======  ==========    ====================================    ======
+      6098      36   100.0      33  AAACGTAGCT    ....................................    TTGAGGTGTTTTCAAAGGTTTCAACTACACCGA
+      6167      36   100.0      39  ACTACACCGA    ....................................    AGGCTGGGTTTGCCACAACAGCATTAGGGTTTGAAATTT
+      6242      36   100.0      38  TTTGAAATTT    ....................................    AAATTGGTATTTGGAAAGTGAGGTTTTCCGATTCGCGA
+      6316      36   100.0      43  CGATTCGCGA    ....................................    CAGCACTCCTTCAACCGCTGTTGGTGATGATTCGCCCGTATAA
+      6395      36   100.0      36  GCCCGTATAA    ....................................    GATATATGTACCTTTGGTCATAACTATTACGATGAA
+      6467      36   100.0      41  TTACGATGAA    ....................................    ACTCCTGTATCCTTGTCGTATTTATTGTTGAATGGTTGTTC
+      6544      36   100.0      38  ATGGTTGTTC    ....................................    ATTTTCTTCGGGGTGAACCGATTGAGGTTTTGACGAAA
+      6618      36   100.0      39  TTTGACGAAA    ....................................    AATGTTTTCCAGTTTTCCATACTAAATTTACAAAAACGA
+      6693      36   100.0      40  ACAAAAACGA    ....................................    TGAAGTAGCTATAAAAACTACAGCAATTAGGATACGAAAC
+      6769      36   100.0      36  GATACGAAAC    ....................................    TCTTTGTTTACTTCTTTGATTATTTTTGAGTTCCAG
+      6841      36   100.0      36  TGAGTTCCAG    ....................................    TACAAATGAGGTAGCACATACCTCGTGGAAAACTAG
+      6913      36   100.0      43  GGAAAACTAG    ....................................    GTTGCAATTGATTTCATTCCTTGAACGAAAGTGTTGTAATCGG
+      6992      36   100.0      44  TTGTAATCGG    ....................................    CTTTACATTGAGCTGGTGTTTGTGTGAAAAACTCCCCGCTTATA
+      7072      36   100.0          CCCGCTTATA    ....................................    GTTAAGTGCA
+==========  ======  ======  ======  ==========    ====================================
+        14      36              38                CCCCACCGCTTGGGTTAATGCGGATTAGTTGGAAAC
+
+
+Array 2
+>JAAHHI010001176.1 MAG: Okeania sp. SIO3C4 3C4_NODE_1176, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                  Spacer
+==========  ======  ======  ======  ==========    ====================================    ======
+      2092      36   100.0      41  CTGTTTTAAA    ....................................    TAGTGAAGGCATCTTTTTCTTAGAATGGTTAGTTAATTGTG
+      2169      36   100.0      35  GTTAATTGTG    ....................................    CTAGCCCTACTAAAAATTAAGAAATGAGCATATAA
+      2240      36   100.0      38  GAGCATATAA    ....................................    TTTCTTATATCCAGTACACTGATTAGTATGGCACTCGT
+      2314      36   100.0      44  TGGCACTCGT    ....................................    CCAGGCAACAACCGATAGAAAACAAAACACTACACACATGAAGT
+      2394      36   100.0      36  CACATGAAGT    ....................................    CCCAAGCCTAATATTAGCGGAAGCAGAGGAGGTAAA
+      2466      36   100.0      38  AGGAGGTAAA    ....................................    TCGGGGTGAATTGTGGTCTGATAAATTACCACAGGATG
+      2540      36   100.0          CCACAGGATG    ....................................    AGTTCCGATC
+==========  ======  ======  ======  ==========    ====================================
+         7      36              38                GTTTCAATCCCTAAGTAGGGATTTGGTTTAGGAAAG
+
+
+Array 3
+>JAAHHI010001177.1 MAG: Okeania sp. SIO3C4 3C4_NODE_1177, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                   Spacer
+==========  ======  ======  ======  ==========    =====================================    ======
+        69      37   100.0      40  TGGTCTTGGT    .....................................    TTTTTTATAATTTTTTTTGTCGTCTCCCTAGTCTCTCCTT
+       146      37   100.0      34  GTCTCTCCTT    .....................................    CATTGAAGCGTAGAAAGGAGCTGTCAGGAAGTTA
+       217      37   100.0      38  CAGGAAGTTA    .....................................    TTTTCTCTCGTTGGGTTTTTTCCTGTGTCTTGAGTCTT
+       292      37   100.0      33  CTTGAGTCTT    .....................................    TCCATCAAAAGTTGCACCACTTCTTTTGCGCTT
+       362      37   100.0      35  TTTTGCGCTT    .....................................    AAGTGTACCATAACAAAGAAAATAGCATTGAAAGT
+       434      37   100.0      30  CATTGAAAGT    .....................................    AAAACCCACCCACCCACCCTGCCGAAAAAA
+       501      37   100.0      39  GCCGAAAAAA    .....................................    CCCCTCCCAATTGTTCAGTAGATAGTTAAGGAGATAATT
+       577      37   100.0      34  GGAGATAATT    .....................................    GCTTAGTTAAGGAGGTCGAATTAAGTGAAAGCAA
+       648      37   100.0      36  GTGAAAGCAA    .....................................    TTAGCGCAGGAACTACTTTCAAAGACAAGGTTAAAA
+       721      37   100.0      34  AAGGTTAAAA    .....................................    TTCCATTCCGGCGATTTTTCCTGGGTTATTTCAA
+       792      37   100.0          GTTATTTCAA    .....................................    TGCAGGGTTC
+==========  ======  ======  ======  ==========    =====================================
+        11      37              35                GTTTCAATCCCTAATAGGGATTAGGGTAATTTTCTAC
+
+
+Array 4
+>JAAHHI010001239.1 MAG: Okeania sp. SIO3C4 3C4_NODE_1239, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                  Spacer
+==========  ======  ======  ======  ==========    ====================================    ======
+      1346      36    94.4      39  AACAGTCAGT    ..............T........C............    AAAAGACAACGAAGCTGTAGAAGTGGAAGTTGAGGTTGT
+      1421      36    97.2      35  TTGAGGTTGT    .......................C............    AGTTCAAAATGGCTATTGACATTCTAAATGCAATT
+      1492      36    97.2      37  AAATGCAATT    .......................C............    CAAGAGATATTGAGCTTAGACAAAATTAGACTGTAGA
+      1565      36    97.2      42  AGACTGTAGA    .......................C............    AAAAACCTTCAGGAAGAGTTTGGAACAGTTGAACAAGTCAAA
+      1643      36    97.2      33  ACAAGTCAAA    .......................C............    TCTTAGGCATATATGATACCTCTGGCACACAAA
+      1712      36   100.0      43  GGCACACAAA    ....................................    TTCTTAACGTACACCCATTGGTATGCACAAAAAACCAATTCTG
+      1791      36   100.0      46  ACCAATTCTG    ....................................    ATACATAAAACCAGAAGAGCCCAAAGTCATCGTCCTAGATGATAGA
+      1873      36   100.0      38  AGATGATAGA    ....................................    AAAATGTCAAAAAAAGACAAAGACTACGATAACCCAGA
+      1947      36   100.0      40  ATAACCCAGA    ....................................    AAAGGGAATCCATGCCCTTGGCCTTTGGTTTTTCCCACTT
+      2023      36   100.0      38  TTTCCCACTT    ....................................    TCTCTTGTAGGACTACTTCATTGACCAAGCCTATGATT
+      2097      36   100.0      37  GCCTATGATT    ....................................    TCTATAGAACAACTCTTCGAAAATAAGACCATCTTTA
+      2170      36   100.0      39  ACCATCTTTA    ....................................    TTTGAAGTGTTTAGAGGAAAACTCCTCTTCGTATTGTGA
+      2245      36   100.0      40  CGTATTGTGA    ....................................    TGGAAAGATTTGAGAAATAATCTTCTAGTGCGTTATTAAT
+      2321      36   100.0      34  CGTTATTAAT    ....................................    CTATAGCATTCGTCAGTTGTGGGAATTATCTGGA
+      2391      36   100.0      34  ATTATCTGGA    ....................................    AAAGTGATAGGTTGACTTTTTGGTTTTATCAAAA
+      2461      36   100.0      33  TTTATCAAAA    ....................................    GACTTTTTGGTTTTATCAAAATTATTTGGTAAC
+      2530      36   100.0          ATTTGGTAAC    ....................................    AGTTCGGTTTC
+==========  ======  ======  ======  ==========    ====================================
+        17      36              38                GTTTCCATTAATTCCGCTTCAAAGGAAGCACTAGAG
+
+
+Array 5
+>JAAHHI010001287.1 MAG: Okeania sp. SIO3C4 3C4_NODE_1287, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                  Spacer
+==========  ======  ======  ======  ==========    ====================================    ======
+      2208      36   100.0      36  GATCGTAGCT    ....................................    CATATCATGGTATGTCGATGATACTATCTTTGTTAT
+      2280      36   100.0      37  TCTTTGTTAT    ....................................    AATCAGCTTTCCTTTCATTGAAATTTTTACTGCACGT
+      2353      36   100.0      40  TACTGCACGT    ....................................    GAAATGGTAGCAACGACTGGAGCTAGAACTGTAACAGCGG
+      2429      36   100.0      37  GTAACAGCGG    ....................................    TTCTGCGTCATGCTTTTCAAGTTCATTTAGCAATCTT
+      2502      36   100.0          TAGCAATCTT    ....................................    CAACCGATAATAGAATTATCAGACATAATTTTTAACGA
+==========  ======  ======  ======  ==========    ====================================
+         5      36              37                CTTTCCCAAACCAAATCCCTACTTAGGGATTGAAAC
+
+
+Array 6
+>JAAHHI010000140.1 MAG: Okeania sp. SIO3C4 3C4_NODE_140, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                  Spacer
+==========  ======  ======  ======  ==========    ====================================    ======
+        23      36   100.0      35  TTTTTAACGC    ....................................    AAGCTAGAATCATTGCTTAGAGCAAAGCCGTAAAA
+        94      36    97.2      36  AGCCGTAAAA    .....................T..............    ATAATTTGTATATTACCCTTGCGAACGAGTTTGAAT
+       166      36   100.0      38  GAGTTTGAAT    ....................................    CTTCGTTTTTCTTCCCCTCCACAGGAAGAGATCAACAA
+       240      36   100.0      48  AGATCAACAA    ....................................    CAAATAAACCCACTGTAGGGGCGATTCGCGAATCGCCCCTACAGGATT
+       324      36    91.7          CTACAGGATT    ...........T.....G..G...............    TACAAGACTT
+==========  ======  ======  ======  ==========    ====================================
+         5      36              39                CTTTCCCAAACCAAATCCCTACTTAGGGATTGAAAC
+
+
+Array 7
+>JAAHHI010001402.1 MAG: Okeania sp. SIO3C4 3C4_NODE_1402, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                   Spacer
+==========  ======  ======  ======  ==========    =====================================    ======
+        46      37   100.0      34  GAGTTACCTG    .....................................    CCTGTACCTTGAGCCTCAACTCCTTGCCTAGATT
+       117      37   100.0      41  TGCCTAGATT    .....................................    GATTGCCAATCTGGGATATTGAGGTAAGAAAAAAAATTGAA
+       195      37   100.0      35  AAAAATTGAA    .....................................    ATTTCTATCCCCTCATGATTGTCCTCTTCCTTTAA
+       267      37   100.0      36  CTTCCTTTAA    .....................................    CCAATCGCGATCGCATGGGGGAAAGTTGATGAGTAA
+       340      37   100.0      42  TGATGAGTAA    .....................................    CTTTGGCAAATGCCGAGCAGGTGATCATTGGGCAAATATTAT
+       419      37   100.0      36  CAAATATTAT    .....................................    TTTTCAATTAAGAAGAAACAAATCTTTATCTGGCTC
+       492      37   100.0      37  TATCTGGCTC    .....................................    GAACAAGGACAGCTGACAGCTAGAAGGAGAAAAGGAG
+       566      37   100.0          AGAAAAGGAG    .....................................    CGCAGGATTT
+==========  ======  ======  ======  ==========    =====================================
+         8      37              37                GTTTCAATCCCTCATAGGGATTTGAGTAAGTTTCAAC
+
+
+Array 8
+>JAAHHI010000149.1 MAG: Okeania sp. SIO3C4 3C4_NODE_149, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                  Spacer
+==========  ======  ======  ======  ==========    ====================================    ======
+        48      36   100.0      35  TTAGGTATTA    ....................................    AATTTCTGGTTTACAGCTGTTGATTATCGAGCTTG
+       119      36   100.0      36  ATCGAGCTTG    ....................................    GTTCAAAGGTTGTGGTGTGTCTGTCATACACTAAAT
+       191      36   100.0      33  TACACTAAAT    ....................................    TTTGAAACCTGCTCTATTGCTCGAGTTTCAAAA
+       260      36   100.0      33  AGTTTCAAAA    ....................................    AACATAGTATTCATTAGAGAAACCTTCTGGCCT
+       329      36   100.0          CTTCTGGCCT    ....................................    GCTCTGGCGT
+==========  ======  ======  ======  ==========    ====================================
+         5      36              34                CTTCCCGAACCCTAATCCCTAATTAGGGATTGAAAC
+
+
+Array 9
+>JAAHHI010001844.1 MAG: Okeania sp. SIO3C4 3C4_NODE_1844, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                   Spacer
+==========  ======  ======  ======  ==========    =====================================    ======
+      1154      37   100.0      36  AATCTTTCTT    .....................................    AAAACAACCAAATAATTTTGGACGACAAGATTATTT
+      1227      37   100.0      34  AAGATTATTT    .....................................    AATATATTGAACTTGGGGATTTATCAGGAATAGG
+      1298      37   100.0      35  CAGGAATAGG    .....................................    ATTTCATTTTATTCCTCCACTGAATCTCCTCTAAA
+      1370      37   100.0      35  CTCCTCTAAA    .....................................    AACGAATCAATGCCTGTACCTTTGATAATTATTCC
+      1442      37   100.0      33  TAATTATTCC    .....................................    CTCCCGATCGCACCCAACCAACAACAAGGCCCT
+      1512      37   100.0      34  ACAAGGCCCT    .....................................    TCTTCAAGAATCAATCATTGGAGGACTGCTACTT
+      1583      37   100.0      35  ACTGCTACTT    .....................................    ATAATGCTACTTTCTCTATCATGGTAAACTTATTT
+      1655      37   100.0      39  AAACTTATTT    .....................................    CTTAAAATACTGAATGAGCTGTTTCCTATTTATCAAAAG
+      1731      37   100.0      36  TTATCAAAAG    .....................................    GTTCAGCAGCAGATGATTGCAAGAAGCTGTACCTTT
+      1804      37   100.0      34  CTGTACCTTT    .....................................    ATTTAACCCTGCGCTACAGTTTATTGAGATGATG
+      1875      37   100.0      37  TGAGATGATG    .....................................    GATATTTTATATCGTCTTGATGAGTATTTCTGGCCTC
+      1949      37   100.0          TTCTGGCCTC    .....................................    GTGAAAAACC
+==========  ======  ======  ======  ==========    =====================================
+        12      37              35                GTTTCAATCCCTAATAGGGATTAGGGTAATTTTCTAC
+
+
+Array 10
+>JAAHHI010000211.1 MAG: Okeania sp. SIO3C4 3C4_NODE_211, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                              Spacer
+==========  ======  ======  ======  ==========    ================================================    ======
+      5382      48    83.3      22  AACGGACATG    ------..A..............................T........    CGCGATCGCTATCTTTCTATAG
+      5452      48   100.0      49  CTTTCTATAG    ................................................    AAATATCAAAGCCTTTACAGGTAAAAGTTTCAACCTTTTTGTGTCAAAC
+      5549      48    95.8          TGTGTCAAAC    ..............................................GA    AAGCGATC
+==========  ======  ======  ======  ==========    ================================================
+         3      48              35                ATTGATATTTTATTTATCTATTGTCCAATAGTTATTGCTCTGCTGATT
+
+
+Array 11
+>JAAHHI010002173.1 MAG: Okeania sp. SIO3C4 3C4_NODE_2173, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                  Spacer
+==========  ======  ======  ======  ==========    ====================================    ======
+        40      36   100.0      34  TCGAATTTGT    ....................................    TTTTTCTATAATTTCTTCTAAGCTGTCAGCAATC
+       110      36   100.0      34  GTCAGCAATC    ....................................    CTTCTGTTAATAATCTGCTCCCCAGTTAGAATTA
+       180      36   100.0      37  GTTAGAATTA    ....................................    TTCAGCGGCTATTTTGGCCGCTCGGGCGTAGCCCTCA
+       253      36   100.0      36  GTAGCCCTCA    ....................................    TAAAGTCATTGCTGTAATAATTAACTGAAAGTTTAC
+       325      36   100.0      35  GAAAGTTTAC    ....................................    GTCGAGATAATCTCCTTTTCGGATTTTCGACAAGG
+       396      36   100.0      37  TTCGACAAGG    ....................................    ATTAGAGGGGGGTGGCTAGAAGCCACCTTTATCCTAT
+       469      36    94.4          TTTATCCTAT    ...............C...............A....    GAAAACGTA
+==========  ======  ======  ======  ==========    ====================================
+         7      36              35                CTCTGGAAACCCTAATCCCTACTTAGGGATTGAAAC
+
+
+Array 12
+>JAAHHI010000022.1 MAG: Okeania sp. SIO3C4 3C4_NODE_22, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                    Spacer
+==========  ======  ======  ======  ==========    ======================================    ======
+        44      38    94.7      41  CCCGCTTATA    --....................................    GTTAAGTGCATAATCGCACCTTGGTGGGTCTAGTTCTAAAG
+       123      38   100.0      36  AGTTCTAAAG    ......................................    CTTTGAACTTCATTAATCAATGAAAGGACAAGGTCT
+       197      38   100.0          GACAAGGTCT    ......................................    TATATCGTTT
+==========  ======  ======  ======  ==========    ======================================
+         3      38              38                TTCCCCACCGCTTGGGTTAATGCGGATTAGTTGGAAAC
+
+
+Array 13
+>JAAHHI010000022.1 MAG: Okeania sp. SIO3C4 3C4_NODE_22, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                  Spacer
+==========  ======  ======  ======  ==========    ====================================    ======
+       353      36   100.0      38  TTCTAGGATA    ....................................    GTTTGCACTTTTAGCGGTTGTTTTAAGTCTCAGTGTTT
+       427      36   100.0      38  CTCAGTGTTT    ....................................    CTCATGTTGTAGTCAATATACACACCAGCATCAATGGA
+       501      36   100.0      38  CATCAATGGA    ....................................    CTTCCATGGCAGTTAAGATTGTATCCGGAGTACTAGCT
+       575      36   100.0      37  AGTACTAGCT    ....................................    TCAACTGCCTGACGCAACTCATCAGAGCATTGCTCCA
+       648      36   100.0      41  CATTGCTCCA    ....................................    GAGAATTATTTATGGTCATCAGTCTGACAATCGAAGTGAAT
+       725      36   100.0      39  CGAAGTGAAT    ....................................    GATTGTACATTTTCCTGCTTTTCTAAATTATGATTCATC
+       800      36   100.0      35  ATGATTCATC    ....................................    ATTTTTCCTTTAGCGCACGTACATCATCAAATGTT
+       871      36   100.0      33  ATCAAATGTT    ....................................    CCTACGTTTCCGTAGGTTGCTCTCAAAACAGTG
+       940      36   100.0      43  CAAAACAGTG    ....................................    AGTGATACCAAAGACATGAAATCCCAAGGTTGGGTCTTCAATT
+      1019      36   100.0      41  GTCTTCAATT    ....................................    CTTTAAATACTTTATTTACCTCCTGTGTGCTTGCAATCTTT
+      1096      36   100.0      38  TGCAATCTTT    ....................................    ATTATGTACAGGAAATAGGTATAGTCCTGCATGGTATC
+      1170      36   100.0      39  GCATGGTATC    ....................................    TTTAGGTCATAATCCGTGATTTTTTGAAAACCACCAATA
+      1245      36   100.0      41  ACCACCAATA    ....................................    AGTAAATGTCTCGTTGCATTTTTTTTACCATCATAAACTAC
+      1322      36   100.0      43  CATAAACTAC    ....................................    GTTCTAACGGTCTGACGGTTTTGGAACCATCTGCTTCTTTGTT
+      1401      36   100.0      38  CTTCTTTGTT    ....................................    AGGCTGCCCATGGCAAAAGAATCTCGGATATGCGCGAG
+      1475      36   100.0      36  TATGCGCGAG    ....................................    CGTACAGCAATGCGATTGTTGGATGCCGCAATGGCG
+      1547      36   100.0      35  CGCAATGGCG    ....................................    CAGGCTGGCTCTCTCGACATTGGTGCGCGGCACTC
+      1618      36   100.0          CGCGGCACTC    ....................................    CAGACGGGATG
+==========  ======  ======  ======  ==========    ====================================
+        18      36              38                CCCCACCGCTTGGGTTAATGCGGATTAGTTGGAAAC
+
+
+Array 14
+>JAAHHI010000022.1 MAG: Okeania sp. SIO3C4 3C4_NODE_22, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                  Spacer
+==========  ======  ======  ======  ==========    ====================================    ======
+      1695      36   100.0      45  ATCCTTTGTA    ....................................    CTCGACCGAACCTGACAGTTCAGGTTTAACCCTTGAAACGCAGAC
+      1776      36   100.0      38  AAACGCAGAC    ....................................    TGGCCGTCACGCCCCCCATCAATGTAATAATGGGATAG
+      1850      36   100.0      40  AATGGGATAG    ....................................    AATCCGCTTCATTGATTTTACCTAAATAAGGTGTACAAAA
+      1926      36   100.0      39  GTGTACAAAA    ....................................    ATCTACCTCTTCAAAATCTGAGGTGGCGTACTTGATAAC
+      2001      36   100.0      40  ACTTGATAAC    ....................................    CAACCCGTTAGCTTCTGCTTGTGGAAGTGTAGCTGTACGT
+      2077      36   100.0      41  AGCTGTACGT    ....................................    ATATCTAATCCGCAGTATGAGCAAATGCCATTGAAAAAGCA
+      2154      36   100.0      39  TGAAAAAGCA    ....................................    TAGAACACCTGTAATTTGATACCCATAATAATTAATATC
+      2229      36   100.0      40  AATTAATATC    ....................................    ACCATAGCGGTCATAATGGAGTACTCAGAAGGAGGCAAAA
+      2305      36   100.0      38  GGAGGCAAAA    ....................................    TTAAGGTCATTAATGTCTTTTTGATAGTCTTTCTCCGT
+      2379      36    91.7          CTTTCTCCGT    ........................C..A..A.....    GCACGCCCCAG
+==========  ======  ======  ======  ==========    ====================================
+        10      36              40                CCCCACCGCTTGGGTTAATGCGGATTAGTTGGAAAC
+
+
+Array 15
+>JAAHHI010002268.1 MAG: Okeania sp. SIO3C4 3C4_NODE_2268, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                   Spacer
+==========  ======  ======  ======  ==========    =====================================    ======
+      1220      37   100.0      34  GAACCCTGCG    .....................................    ATAAGCAAACAATAGCGGAGTGCCAGTTGAAGGT
+      1291      37   100.0      34  AGTTGAAGGT    .....................................    CTTTACATATCTGTTTATACCCCCTACCAAAGAA
+      1362      37   100.0      37  TACCAAAGAA    .....................................    GTTACTACTTTTGGTAAAGTAATTTCTGTTTCTGAAA
+      1436      37   100.0      34  GTTTCTGAAA    .....................................    ATTAGCTAGTTCCGAACTACACAGGTTGACGGAG
+      1507      37   100.0      36  GTTGACGGAG    .....................................    ATATCAATACAGGACTTGAAACAATTTGCTCAAAAG
+      1580      37   100.0          TGCTCAAAAG    .....................................    AATTTCATAGC
+==========  ======  ======  ======  ==========    =====================================
+         6      37              35                GTTACTCACTCTGTGGGTAACTGGAATTAATGGAAAC
+
+
+Array 16
+>JAAHHI010002298.1 MAG: Okeania sp. SIO3C4 3C4_NODE_2298, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                  Spacer
+==========  ======  ======  ======  ==========    ====================================    ======
+        67      36    94.4      39  TTTCTCCCCA    ..T.........C.......................    GTGTTTTGCTACCTCTTCTCCATAGATTGGTTTAAAACA
+       142      36    94.4      37  GTTTAAAACA    ..T.........C.......................    CTCATAGTTTACCTTTCCGCAATTTTGTCTGTATTCA
+       215      36    97.2      38  TCTGTATTCA    ..T.................................    GTCGTGGAAGTGTTGCCTTTAAAGAGGCTAATGTTTCA
+       289      36   100.0      38  TAATGTTTCA    ....................................    TTTTAGCTGAAACGGGCAGAGCAGAGAGTGTGTCGAAT
+       363      36   100.0      35  TGTGTCGAAT    ....................................    AAGCCAGACTGTATCTTCTACAGACTTGGTGCCAC
+       434      36   100.0      35  TTGGTGCCAC    ....................................    ATCCACAAGAGCATATTGACTCAGAATTATTGCCT
+       505      36   100.0          ATTATTGCCT    ....................................    CATATGTTCA
+==========  ======  ======  ======  ==========    ====================================
+         7      36              37                CTCTAGTGCTTCGTTTGAAGCGGAATTAATGGAAAC
+
+
+Array 17
+>JAAHHI010002298.1 MAG: Okeania sp. SIO3C4 3C4_NODE_2298, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                   Spacer
+==========  ======  ======  ======  ==========    =====================================    ======
+       581      37   100.0      37  ATTTTTTCTC    .....................................    AGAAGATTTTCTGTAATATGCAAAGACCCCCTCTTTC
+       655      37   100.0      38  CCCCTCTTTC    .....................................    CTAGGTTATCAGCGTCCTGCATTAGCTGTGCAAGCTTG
+       730      37    97.3      38  TGCAAGCTTG    ....................................A    AGATGGAGCGCAAACAACACTCCAGATACGAAAGAAAC
+       805      37   100.0          CGAAAGAAAC    .....................................    ACTTACCGTTAGGGCAGGCCGGACACTCAGTTGCAATCGA
+==========  ======  ======  ======  ==========    =====================================
+         4      37              37                CTTTAGTGCTTCGTCTGAAGCGGAATTAATGGAAACC
+
+
+Array 18
+>JAAHHI010002530.1 MAG: Okeania sp. SIO3C4 3C4_NODE_2530, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                   Spacer
+==========  ======  ======  ======  ==========    =====================================    ======
+      1100      37   100.0      36  GCTGGCCTGT    .....................................    TAATTATCGCTGAAACAAAGGAGGACGAGCCGTACG
+      1173      37   100.0      37  GAGCCGTACG    .....................................    TGTAAAAGTACTACTCCCCCTAGCGAGTAATACTTTT
+      1247      37   100.0          TAATACTTTT    .....................................    AAAAGATTAAAGACAAAATTCTTTGTCACTAAAG
+==========  ======  ======  ======  ==========    =====================================
+         3      37              36                TGTTTCAATCCCTAATTAGGGATTAGGGTTTCCAGAG
+
+
+Array 19
+>JAAHHI010000658.1 MAG: Okeania sp. SIO3C4 3C4_NODE_658, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                  Spacer
+==========  ======  ======  ======  ==========    ====================================    ======
+      3281      36   100.0      38  AAACCGAACT    ....................................    ACCATGCTCCCAGTTGGGAGCTATGGTTGGCAAGTAAT
+      3355      36   100.0      36  GGCAAGTAAT    ....................................    CTTTTGTTTTGGTAACGTAGCTTTTTGGAGGATTTT
+      3427      36   100.0      38  GGAGGATTTT    ....................................    TGCCACTCCGTCATCATTTTTGTCTTCTTCCTCCACCC
+      3501      36   100.0      37  TCCTCCACCC    ....................................    TTTAAGCCTAGTAAAACCAAAAAGACTGAAAATAGGC
+      3574      36   100.0          GAAAATAGGC    ....................................    ATCCAGGAGTAGACATCTGTATCCCTTTTTTTTTAAGATT
+==========  ======  ======  ======  ==========    ====================================
+         5      36              37                CTCTAGTGCTTCACCCGAAGCGGAATTAATGGAAAC
+
+
+SUMMARY BY SIMILARITY
+
+
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer  +  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  =  =========
+    2  JAAHHI010001176.        2092         484         7      36      38  +  -GTTTC--------AATCCCTAAGTAGGGATTTGGTT--TAGGAAAG
+    3  JAAHHI010001177.          69         760        11      37      35  +  -GTTTC--------AATCCCTAA-TAGGGATTAGGGTAATTTTCTAC
+    5  JAAHHI010001287.        2208         330         5      36      37  -  -GTTTC--------AATCCCTAAGTAGGGATTTGGTT--TGGGAAAG
+    6  JAAHHI010000140.          23         337         5      36      39  -  -GTTTC--------AATCCCTAAGTAGGGATTTGGTT--TGGGAAAG
+    7  JAAHHI010001402.          46         557         8      37      37  +  -GTTTC--------AATCCCTCA-TAGGGATTTGAGTAAGTTTCAAC
+    8  JAAHHI010000149.          48         317         5      36      34  +  -CTTCCCGAACCCTAATCCCTAATTAGGGATT----------GAAAC
+    9  JAAHHI010001844.        1154         832        12      37      35  +  -GTTTC--------AATCCCTAA-TAGGGATTAGGGTAATTTTCTAC
+   11  JAAHHI010002173.          40         465         7      36      35  -  -GTTTC--------AATCCCTAAGTAGGGATTAGGGT--TTCCAGAG
+   18  JAAHHI010002530.        1100         184         3      37      36  +  TGTTTC--------AATCCCTAATTAGGGATTAGGGT--TTCCAGAG
+                                                                               :**:*        *******:* ******** :  :        * 
+
+    1  JAAHHI010000111.        6098        1010        14      36      38  +  --CCCCACCGCTTGGGTTAATGCGGATTAGTTGGAAAC
+   12  JAAHHI010000022.          44         189         3      38      38  +  TTCCCCACCGCTTGGGTTAATGCGGATTAGTTGGAAAC
+   13  JAAHHI010000022.         353        1301        18      36      38  +  --CCCCACCGCTTGGGTTAATGCGGATTAGTTGGAAAC
+   14  JAAHHI010000022.        1695         720        10      36      40  +  --CCCCACCGCTTGGGTTAATGCGGATTAGTTGGAAAC
+                                                                                ************************************
+
+    4  JAAHHI010001239.        1346        1220        17      36      38  +  -GTTTCCATTAATTCCGCTTCAAAGGAAGCACTAGAG
+   16  JAAHHI010002298.          67         474         7      36      37  -  -GTTTCCATTAATTCCGCTTCAAACGAAGCACTAGAG
+   17  JAAHHI010002298.         581         261         4      37      37  -  GGTTTCCATTAATTCCGCTTCAGACGAAGCACTAAAG
+   19  JAAHHI010000658.        3281         329         5      36      37  -  -GTTTCCATTAATTCCGCTTCGGGTGAAGCACTAGAG
+                                                                               ********************    ********* **
+
+   10  JAAHHI010000211.        5382         209         3      48      35  +  ATTGATATTTTATTTATCTATTGTCCAATAGTTATTGCTCTGCTGATT
+
+   15  JAAHHI010002268.        1220         397         6      37      35  +  GTTACTCACTCTGTGGGTAACTGGAATTAATGGAAAC
+
+
+
+SUMMARY BY POSITION
+
+
+
+>JAAHHI010000111.1 MAG: Okeania sp. SIO3C4 3C4_NODE_111, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    1  JAAHHI010000111.        6098        1010        14      36      38              CCCCACCGCTTGGGTTAATGCGGATTAGTTGGAAAC
+
+
+>JAAHHI010001176.1 MAG: Okeania sp. SIO3C4 3C4_NODE_1176, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    2  JAAHHI010001176.        2092         484         7      36      38              GTTTCAATCCCTAAGTAGGGATTTGGTTTAGGAAAG
+
+
+>JAAHHI010001177.1 MAG: Okeania sp. SIO3C4 3C4_NODE_1177, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    3  JAAHHI010001177.          69         760        11      37      35              GTTTCAATCCCTAATAGGGATTAGGGTAATTTTCTAC
+
+
+>JAAHHI010001239.1 MAG: Okeania sp. SIO3C4 3C4_NODE_1239, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    4  JAAHHI010001239.        1346        1220        17      36      38              GTTTCCATTAATTCCGCTTCAAAGGAAGCACTAGAG
+
+
+>JAAHHI010001287.1 MAG: Okeania sp. SIO3C4 3C4_NODE_1287, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    5  JAAHHI010001287.        2208         330         5      36      37              CTTTCCCAAACCAAATCCCTACTTAGGGATTGAAAC
+
+
+>JAAHHI010000140.1 MAG: Okeania sp. SIO3C4 3C4_NODE_140, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    6  JAAHHI010000140.          23         337         5      36      39              CTTTCCCAAACCAAATCCCTACTTAGGGATTGAAAC
+
+
+>JAAHHI010001402.1 MAG: Okeania sp. SIO3C4 3C4_NODE_1402, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    7  JAAHHI010001402.          46         557         8      37      37              GTTTCAATCCCTCATAGGGATTTGAGTAAGTTTCAAC
+
+
+>JAAHHI010000149.1 MAG: Okeania sp. SIO3C4 3C4_NODE_149, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    8  JAAHHI010000149.          48         317         5      36      34              CTTCCCGAACCCTAATCCCTAATTAGGGATTGAAAC
+
+
+>JAAHHI010001844.1 MAG: Okeania sp. SIO3C4 3C4_NODE_1844, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    9  JAAHHI010001844.        1154         832        12      37      35              GTTTCAATCCCTAATAGGGATTAGGGTAATTTTCTAC
+
+
+>JAAHHI010000211.1 MAG: Okeania sp. SIO3C4 3C4_NODE_211, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+   10  JAAHHI010000211.        5382         209         3      48      35              ATTGATATTTTATTTATCTATTGTCCAATAGTTATTGCTCTGCTGATT
+
+
+>JAAHHI010002173.1 MAG: Okeania sp. SIO3C4 3C4_NODE_2173, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+   11  JAAHHI010002173.          40         465         7      36      35              CTCTGGAAACCCTAATCCCTACTTAGGGATTGAAAC
+
+
+>JAAHHI010000022.1 MAG: Okeania sp. SIO3C4 3C4_NODE_22, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+   12  JAAHHI010000022.          44         189         3      38      38              TTCCCCACCGCTTGGGTTAATGCGGATTAGTTGGAAAC
+   13  JAAHHI010000022.         353        1301        18      36      38          82  CCCCACCGCTTGGGTTAATGCGGATTAGTTGGAAAC
+   14  JAAHHI010000022.        1695         720        10      36      40           3  CCCCACCGCTTGGGTTAATGCGGATTAGTTGGAAAC
+
+
+>JAAHHI010002268.1 MAG: Okeania sp. SIO3C4 3C4_NODE_2268, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+   15  JAAHHI010002268.        1220         397         6      37      35              GTTACTCACTCTGTGGGTAACTGGAATTAATGGAAAC
+
+
+>JAAHHI010002298.1 MAG: Okeania sp. SIO3C4 3C4_NODE_2298, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+   16  JAAHHI010002298.          67         474         7      36      37              CTCTAGTGCTTCGTTTGAAGCGGAATTAATGGAAAC
+   17  JAAHHI010002298.         581         261         4      37      37           3  CTTTAGTGCTTCGTCTGAAGCGGAATTAATGGAAACC
+
+
+>JAAHHI010002530.1 MAG: Okeania sp. SIO3C4 3C4_NODE_2530, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+   18  JAAHHI010002530.        1100         184         3      37      36              TGTTTCAATCCCTAATTAGGGATTAGGGTTTCCAGAG
+
+
+>JAAHHI010000658.1 MAG: Okeania sp. SIO3C4 3C4_NODE_658, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+   19  JAAHHI010000658.        3281         329         5      36      37              CTCTAGTGCTTCACCCGAAGCGGAATTAATGGAAAC

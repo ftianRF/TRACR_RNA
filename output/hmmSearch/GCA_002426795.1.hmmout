@@ -1,0 +1,141 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  output/hmm/Cas9.hmm
+# target sequence database:        output/orf/GCA_002426795.1.orf
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Cas9  [M=1038]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+   1.7e-183  607.3  48.9   8.4e-183  605.0  48.9    2.0  1  DINQ01000011.1_ORF2492  length 1543 aa, 4632 bp, from 46594..
+
+
+Domain annotation for each sequence (and alignments):
+>> DINQ01000011.1_ORF2492  length 1543 aa, 4632 bp, from 46594..51225 of DINQ01000011.1 MAG TPA_asm: Bacteroidales bacte
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  605.0  48.9  2.2e-185  8.4e-183       1    1028 [.      10    1542 ..      10    1543 .] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 605.0 bits;  conditional E-value: 2.2e-185
+                    Cas9    1 MekkyilGLDlGtnSvGwavvdedekekpkeiidlgvrlfdeaetpk........eslaaeRRakRgaRRrlrRrklRlrllkel 77  
+                              M  k +lGLDlGtnS+Gwa+vd++++    +i d+gvr+f+e+ +++        es++ eRR++R+aRR++ R++ R+ +l +l
+  DINQ01000011.1_ORF2492   10 M-AKKVLGLDLGTNSIGWAIVDKENQ----KILDAGVRIFQEGVKKDtigkgdkeESKNSERRQHRQARRLNFRKRIRKAHLLKL 89  
+                              6.6899******************99....9**************55666667667***************************** PP
+
+                    Cas9   78 leesgllp..ddkle.....................kykkkyptpyhLRkkaleekldprelgraLlhlakrRGyksnrkdelke 139 
+                              l +++++p   ++l+                       +    +py LRkk+l+e l++ e+gr+L+h+++rRG+ snrk + k+
+  DINQ01000011.1_ORF2492   90 LIDNQMVPltIEELNkwrywnknekssgkifphseaFVNWLRMNPYLLRKKGLHEDLTLFEFGRILYHFIQRRGFMSNRKGKAKD 174 
+                              ***99999985555567788888888999999998744555899*************************************9777 PP
+
+                    Cas9  140 dekl.kesgelkeaikeleellkekgsktvgemlyeelkengk...irnkasqedgsy...ngviprqlyleElekilekq.... 213 
+                                    + +e  +++ e++ell++   +t+ge l+e + ++g+   ir+  + ++  +    ++  r++y++E+++++ekq    
+  DINQ01000011.1_ORF2492  175 -TGViYKGKENMDGVDETRELLQN---RTLGEALFEIHPKEGEaffIRKDIKGKE--VrvrARYTLREMYVDEFDRLWEKQsarl 253 
+                              .33354446778888888999999...************8777788444443222..1224899*****************7777 PP
+
+                    Cas9  214 ....................akfypel.......................................lteelieki.....lsilf 234 
+                                                  +                                             + e+++e +     +s+lf
+  DINQ01000011.1_ORF2492  254 gltdkmvsirrkvflkgtinQ-----KrnqnklnhlidrygkgnvivyddsigvlekkplkevlagKIESTEEGVrfksnESVLF 333 
+                              776666666555554444441.....04444457788899999999999999999999966666663334444447666666*** PP
+
+                    Cas9  235 fqrpyysgplyawvkaeefiekligkCtyl..............pdedrapkssplyqefrllnelnnlrikekeerpLteeerq 305 
+                              +qrp+ s            +++l +kC+++               ++  a +s+p ++ fr+ + +nn++i +   + L++e+r+
+  DINQ01000011.1_ORF2492  334 WQRPLRS------------QKSLLSKCSFEsqkifdkkldkwivIGKSPAYTSHPDFELFRAHQFINNIKIGK-ANHLLNDEQRA 405 
+                              *****99............***********777777777777777777***********************87.7889******* PP
+
+                    Cas9  306 kiidelfkk.kkvtfkklrklLklkeeikfngedkeklfrsslkgyhk...lakillgeewkklieksreeldeiieiltsfedk 386 
+                              +++d +++k k ++fk ++k+Lkl++e  fn+ed+      +++g+++   +a+++ +++w       +e  +ei++ l  +ed 
+  DINQ01000011.1_ORF2492  406 DVLDLINSKdKAFEFKVIKKALKLPHE-FFNYEDDF-----KVAGNKThasVASVFSKKDW-------EEIKEEIWHDLVFYEDS 477 
+                              *********666************774.68888888.....77777773335556677777.......68899************ PP
+
+                    Cas9  387 ealkeklakelglsdeqikklakl.lfsgwgrlSlkalrkilpalregksyneavkealg......................... 445 
+                              + l++kl++ ++l++  ++kl+k+ l +g+++lSlka+r+ilp+l++g++y++av    g                         
+  DINQ01000011.1_ORF2492  478 DLLSAKLMRRYHLDEQSANKLSKIeLEEGYASLSLKAIRNILPFLEMGYRYSTAVILG-Gvknsfgerwerfsivhdeiirdvvr 561 
+                              ****************************************************999944.54444445555544433333333333 PP
+
+                    Cas9  446 ..............fdeskarkkkeeekkkekkdkLpyl........................................kkelig 476 
+                                                                                                             + e+++
+  DINQ01000011.1_ORF2492  562 itenekhkefelveQ-----------------------VklylsdpenkygfnkddkafsklyhpsqaiekkalktrlsEIENLR 623 
+                              322222222222220.......................13335666667777777777777777777777666655544446*** PP
+
+                    Cas9  477 npvvkralnqtrkvvnelikkyg.......kpdeIviElarelkksaeerkeiekrqkknekknkkikekleelgkkpnrldilk 554 
+                              np v++al ++r+++n l+++y        ++d+I +E+ relk+++++r+e++ r+++ne+kn  ++e+l e+g +p+r++i k
+  DINQ01000011.1_ORF2492  624 NPIVQKALYEMRRLINSLLDRYEepngdgfRFDRIQVEFGRELKNNKKRRQEMSIRNRENENKNALARERLSEYGLRPSRNNITK 708 
+                              ************************************************************************************* PP
+
+                    Cas9  555 lrLyee.....qngkCpYtgepIsledllsd.skyeiDHIiPrslsldDsldNkVlvlkeeNqeKgnrtpyeafgadk......k 627 
+                              + Ly+e        +CpYtg++Is++dll + + y+i+HI+P s+sldDs+ Nk+l++++ N+eKg+ tpye+ ++++       
+  DINQ01000011.1_ORF2492  709 YLLYQEieqknGIVQCPYTGRTISISDLLGNeNRYQIEHIVPLSVSLDDSYGNKTLCESNFNREKGELTPYEFYQRNSsrelwaA 793 
+                              ******996544568**************555********************************************966789989 PP
+
+                    Cas9  628 sswedlkarveelkkkiskkkrkrLlrkeflkeeekegfiaRqlndtryitkvvanyLkellpkeekkvkvvvvkGslTselRkk 712 
+                              sswe++++r+ +l   +sk kr  +++k        ++fi+Rqlndtryi+k++a++L+e+++      +v+v++G+lT+elR+ 
+  DINQ01000011.1_ORF2492  794 SSWEEVEQRAYKLLP-YSKAKRFTMMKK-----PGADDFIQRQLNDTRYISKKAAEMLSEICD------DVRVLPGQLTAELRRL 866 
+                              ************995.666666666555.....69****************************......9*************** PP
+
+                    Cas9  713 wgln................................................................................. 716 
+                              wgln                                                                                 
+  DINQ01000011.1_ORF2492  867 WGLNhllrdpllksknitvstdgelehfvvfdengqvkqllpaqnqkpssgfpvlcmpgyidknglfseekrykqlrfeqnktgf 951 
+                              ************************************************************************************* PP
+
+                    Cas9  717 ..................................................................................... 716 
+                                                                                                                   
+  DINQ01000011.1_ORF2492  952 kegkywaktelsnpldftliftarpplsnkyislrgqvskgrfthdsikqkiaanvedgtywvsfpvknfqlvpasrdqkpapgt 1036
+                              ************************************************************************************* PP
+
+                    Cas9  717 ..................................................................................... 716 
+                                                                                                                   
+  DINQ01000011.1_ORF2492 1037 keillfgkvngglfssyifetttdlpdgrywlilepdtttpeflkarnipeskadnevfvegvvddlgkftsdqdpdfsfktsha 1121
+                              ************************************************************************************* PP
+
+                    Cas9  717 ..................................................kkrredhrHHAiDAlviavtgrsllqrlnklskek 751 
+                                                                                +k+red+rHHA+DA+v+a+ + s+l++l+++s + 
+  DINQ01000011.1_ORF2492 1122 pgkyfvrframktegyyplqndppvfgknenlalaytwvdkatgeikidvQKNREDQRHHALDAIVVAMSELSYLNQLSRYSGQI 1206
+                              **********************************************************************************766 PP
+
+                    Cas9  752 ekkklkrtgei....fpkpWegfrdevkeklekilvsrkpdrk......................vngalhketiygekekdekk 810 
+                              +  + +r g+     f+ pW++f d v+ ++e+ilvs+ ++rk                      ++g lh e + g+  +++  
+  DINQ01000011.1_ORF2492 1207 K--DWER-GKDerpvFDLPWSEFSDAVNTAIEQILVSYAQNRKvvskiskmvnkggrsykssgfaARGRLHREFYFGQHPRPILH 1288
+                              3..2222.2223466999**********************************************************999999998 PP
+
+                    Cas9  811 k.................kkklvs.rkklkdlkkkkdlikkayekivkaerdkklvealkarlee...........yknkkskka 866 
+                              +                 k+ +++ rk +++++++k +     +kiv    d++++  +++rle+           +        
+  DINQ01000011.1_ORF2492 1289 QknpqtgdllfekdkygnKQYYYHiRKAVTTIQNNKHV-----DKIV----DEAIRLLIISRLEKeyhidttkpynI-------- 1356
+                              89999999999999999644444489999999666666.....9***....99999999999999543333333220........ PP
+
+                    Cas9  867 la.kylekkk.............gkeirkvriikkklsakikkniklsdgkykfvstgsnlrvdvykskkkgkllyelvsiyead 937 
+                               + +++++k              + +++kvr+ ++  +a   +++ +sd  +++v+  +n++v +y+ + +g+l++++vs++e  
+  DINQ01000011.1_ORF2492 1357 -PsDFFYDKDkkpnlflpnknghPVPVKKVRMRENIGNA---EQL-KSDV-NQWVNPYNNHHVVIYE-DFEGNLQEQVVSLWEVV 1434
+                              .1355555555556666666689999*******986666...122.3344.49*************9.***************76 PP
+
+                    Cas9  938 kakklknkaikdeelidkgakfvfslykgdll..........elaeskekkel.......rriyrvqlkasknsielkph..... 1000
+                              ++    n+ +k+ +l+  g++ v +l++++++          +l+++     l         +yrvq k s+ ++++++h     
+  DINQ01000011.1_ORF2492 1435 ERL---NQGLKTVQLPVNGRRIVETLQENEMFliglpqdmrdNLDKN-----LnsvtalsPYLYRVQ-KISSMYYTFRQHlvssv 1510
+                              666...44443334444444444444444444220000000455444.....144456799*****8.************97654 PP
+
+                    Cas9 1001 .ksdkkdkfkkk........kkkkikkvkvdilGrik 1028
+                               +     + +++         + ++ +v +d +G+i 
+  DINQ01000011.1_ORF2492 1511 sT-----EQGELsirsfkawEELNPIRVIIDQTGKIS 1542
+                              31.....33333455778898899999999****985 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (1038 nodes)
+Target sequences:                        377  (366137 residues searched)
+Passed MSV filter:                        37  (0.0981432); expected 7.5 (0.02)
+Passed bias filter:                        8  (0.0212202); expected 7.5 (0.02)
+Passed Vit filter:                         1  (0.00265252); expected 0.4 (0.001)
+Passed Fwd filter:                         1  (0.00265252); expected 0.0 (1e-05)
+Initial search space (Z):                377  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.07u 0.02s 00:00:00.09 Elapsed: 00:00:00.09
+# Mc/sec: 4021.81
+//
+[ok]

@@ -1,0 +1,9 @@
+
+
+Building a new DB, current time: 07/09/2022 19:36:58
+New DB name:   /home/ftian/lustre/02-CasNT/07-sgRNA/TRACR_RNA/output/pseudoChr/RGDI01000003.1_RG1990038.fasta
+New DB title:  output/pseudoChr/RGDI01000003.1_RG1990038.fasta
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00103211 seconds.

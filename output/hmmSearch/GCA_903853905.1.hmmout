@@ -1,0 +1,47 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  output/hmm/Cas9.hmm
+# target sequence database:        output/orf/GCA_903853905.1.orf
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Cas9  [M=1038]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+  ------ inclusion threshold ------
+      0.011    9.5   1.1      0.016    9.0   1.1    1.1  1  CAINUY010000165.1_ORF68  length 1462 aa, 4389 bp, from 3229..
+
+
+Domain annotation for each sequence (and alignments):
+>> CAINUY010000165.1_ORF68  length 1462 aa, 4389 bp, from 3229..7617 of CAINUY010000165.1 uncultured proteobacterium iso
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.0   1.1   2.4e-05     0.016      48      81 ..     905     948 ..     894     975 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 9.0 bits;  conditional E-value: 2.4e-05
+                     Cas9  48 eslaaeRRakRgaRRrlrRrklRlrllkellee..........s 81 
+                              + la  RR  R++RRr+  r+lR + lk l+++           
+  CAINUY010000165.1_ORF68 905 QDLAHHRRDRRHRRRRHVGRQLRADELKLLVHDlprvadvgapV 948
+                              579**************************998855555555554 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (1038 nodes)
+Target sequences:                        666  (604616 residues searched)
+Passed MSV filter:                        48  (0.0720721); expected 13.3 (0.02)
+Passed bias filter:                       45  (0.0675676); expected 13.3 (0.02)
+Passed Vit filter:                        17  (0.0255255); expected 0.7 (0.001)
+Passed Fwd filter:                         1  (0.0015015); expected 0.0 (1e-05)
+Initial search space (Z):                666  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.08
+# Mc/sec: 7094.87
+//
+[ok]

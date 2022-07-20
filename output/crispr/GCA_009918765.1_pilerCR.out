@@ -1,0 +1,63 @@
+pilercr v1.06
+By Robert C. Edgar
+
+input/asm/GCA_009918765.1.fa: 2 putative CRISPR arrays found.
+
+
+
+DETAIL REPORT
+
+
+
+Array 1
+>RGDD01000334.1 MAG: Proteobacteria bacterium isolate WB6_1B_172 contig_100_333, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                             Spacer
+==========  ======  ======  ======  ==========    ===============================================    ======
+       806      47    91.5      17  AGATCAATTG    ----...........................................    GGCACCATCGTGCCTGT
+       870      47    97.9      34  TCGTGCCTGT    ...................................A...........    TTTTTTGGTGGCACCATCGTGCTGCAACTGCGTG
+       951      47    80.9          CAACTGCGTG    ..G.........A.........-..................------    TGTGGCACTC
+==========  ======  ======  ======  ==========    ===============================================
+         3      47              25                GACCTAGCAGTTGACCCTTGTCTGGGCTGCTGCAAGCTGAGAACTGC
+
+
+Array 2
+>RGDD01000047.1 MAG: Proteobacteria bacterium isolate WB6_1B_172 contig_100_46, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                                 Spacer
+==========  ======  ======  ======  ==========    ===================================================    ======
+     21728      51    86.3      33  TTCAACTAGC    ...T.....G........T.....T.........TC..T............    TGAAATAACAGATGTAAGCAATTTGCAAACTGT
+     21812      51    84.3      37  TGCAAACTGT    ......C........G...................G......T....----    ACCATAATATAGAAGATGTGAGCGGACTGCAAACAGC
+     21900      51    84.3          TGCAAACAGC    AT..........G...T.........A.............GT...C.....    TACAAGTTCAGCA
+==========  ======  ======  ======  ==========    ===================================================
+         3      51              35                TCTAGATGGTAAACAACCATCTGGCAGTTATGCTAATTCAAGCCATAGTCA
+
+
+SUMMARY BY SIMILARITY
+
+
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer  +  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  =  =========
+    1  RGDD01000334.1 M         806         181         3      47      25  +  GACCTAGCAGTTGACCCTTGTCTGGGCTGCTGCAAGCTGAGAACTGC
+
+    2  RGDD01000047.1 M       21728         219         3      51      35  +  TCTAGATGGTAAACAACCATCTGGCAGTTATGCTAATTCAAGCCATAGTCA
+
+
+
+SUMMARY BY POSITION
+
+
+
+>RGDD01000334.1 MAG: Proteobacteria bacterium isolate WB6_1B_172 contig_100_333, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    1  RGDD01000334.1 M         806         181         3      47      25              GACCTAGCAGTTGACCCTTGTCTGGGCTGCTGCAAGCTGAGAACTGC
+
+
+>RGDD01000047.1 MAG: Proteobacteria bacterium isolate WB6_1B_172 contig_100_46, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    2  RGDD01000047.1 M       21728         219         3      51      35              TCTAGATGGTAAACAACCATCTGGCAGTTATGCTAATTCAAGCCATAGTCA

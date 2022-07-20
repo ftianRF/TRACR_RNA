@@ -1,0 +1,85 @@
+pilercr v1.06
+By Robert C. Edgar
+
+input/asm/GCA_903853905.1.fa: 3 putative CRISPR arrays found.
+
+
+
+DETAIL REPORT
+
+
+
+Array 1
+>CAINUY010000124.1 uncultured proteobacterium isolate Loclat_bin-05004 genome assembly, contig: bin-05004:124/702, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                         Spacer
+==========  ======  ======  ======  ==========    ===========================    ======
+      2363      27    77.8      54  GGGCACCCGA    -...G.....C.G........C..T..    CGAAGCGGCGGGGCCAGCCTCGTCGGGGCACTGGTCTTTGACGTCGACGAGGGT
+      2444      27    85.2      60  CGACGAGGGT    ...A.G....C..........C.....    GGTCGCGACGTCCCCCGCCTCCATCGGGCACTGGTCTTTGGAATCCGGGATGCCGTCTTT
+      2531      27    92.6      72  TGCCGTCTTT    .....C.........G...........    GCTGTCTTCGAAGCCGTCTACGTCTTCGGCGTCATTGCGACAGGCGTCTTTCTCGTCCGCGATGCCGTCGGC
+      2630      27    88.9          TGCCGTCGGC    ......A..G................T    CTCGTCTTC
+==========  ======  ======  ======  ==========    ===========================
+         4      27              62                GTCGTTGTCCAGATCCGGGCAACCGTC
+
+
+Array 2
+>CAINUY010000164.1 uncultured proteobacterium isolate Loclat_bin-05004 genome assembly, contig: bin-05004:164/702, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                    Spacer
+==========  ======  ======  ======  ==========    ======================    ======
+      3197      22    95.5      47  TCACCGACAC    ..G...................    GCCTCCGTGAACCCCGCCGCCGTCGACATCCCGAACGATGGCATCGA
+      3266      22    86.4      50  ATGGCATCGA    ...........TG...G.....    AACCACGACGGCGACGGCGATGGCTACGAAGATGACGCGTGGGGCGGGAC
+      3338      22    86.4          GGGGCGGGAC    ---...................    TCTGCCATCA
+==========  ======  ======  ======  ==========    ======================
+         3      22              48                CAACGACTGCGACGACAGCGAC
+
+
+Array 3
+>CAINUY010000688.1 uncultured proteobacterium isolate Loclat_bin-05004 genome assembly, contig: bin-05004:688/702, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                                     Spacer
+==========  ======  ======  ======  ==========    =======================================================    ======
+       615      55    81.8      20  TCCGGCGACC    ----.......T......G..C.........C.........T...A.........    ACAGCACCTCCATCGCCGAG
+       690      55    89.1      20  CATCGCCGAG    ....CG..........A..C.......AG..........................    GTTCGCTGACCGAAGCCGTC
+       765      55    85.5          CGAAGCCGTC    ....................C........G.....T...........A...----    CCCGCCTTGT
+==========  ======  ======  ======  ==========    =======================================================
+         3      55              20                GATGGCGACTGCGATGGCATGGTGACCGACGACGACTGCGACGACGCCGACGCCA
+
+
+SUMMARY BY SIMILARITY
+
+
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer  +  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  =  =========
+    2  CAINUY010000164.        3197         160         3      22      48  +  -----------------------------CAACGACTGCGACGACAGCGAC----
+    3  CAINUY010000688.         615         197         3      55      20  +  GATGGCGACTGCGATGGCATGGTGACCGACGACGACTGCGACGACGCCGACGCCA
+                                                                                                           * **************  ****    
+
+    1  CAINUY010000124.        2363         293         4      27      62  +  GTCGTTGTCCAGATCCGGGCAACCGTC
+
+
+
+SUMMARY BY POSITION
+
+
+
+>CAINUY010000124.1 uncultured proteobacterium isolate Loclat_bin-05004 genome assembly, contig: bin-05004:124/702, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    1  CAINUY010000124.        2363         293         4      27      62              GTCGTTGTCCAGATCCGGGCAACCGTC
+
+
+>CAINUY010000164.1 uncultured proteobacterium isolate Loclat_bin-05004 genome assembly, contig: bin-05004:164/702, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    2  CAINUY010000164.        3197         160         3      22      48              CAACGACTGCGACGACAGCGAC
+
+
+>CAINUY010000688.1 uncultured proteobacterium isolate Loclat_bin-05004 genome assembly, contig: bin-05004:688/702, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    3  CAINUY010000688.         615         197         3      55      20              GATGGCGACTGCGATGGCATGGTGACCGACGACGACTGCGACGACGCCGACGCCA

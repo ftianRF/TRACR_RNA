@@ -1,0 +1,84 @@
+pilercr v1.06
+By Robert C. Edgar
+
+input/asm/GCA_009918665.1.fa: 3 putative CRISPR arrays found.
+
+
+
+DETAIL REPORT
+
+
+
+Array 1
+>RGDI01000111.1 MAG: bacterium isolate WB6_1A_189 contig_100_110, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                              Spacer
+==========  ======  ======  ======  ==========    ================================    ======
+      1965      32    87.5      24  TACTTTGTGA    .......................T.....---    CAGATTGGCTTGACTGTAAAGTCA
+      2021      32    84.4      16  TGTAAAGTCA    -----...........................    TGTGACTACCTTGATT
+      2069      32    93.8          TACCTTGATT    .....A............A.............    CATATTGATT
+==========  ======  ======  ======  ==========    ================================
+         3      32              20                TTGATTACCAGCTTGATATCCAACAGCAATAC
+
+
+Array 2
+>RGDI01000251.1 MAG: bacterium isolate WB6_1A_189 contig_100_250, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                   Spacer
+==========  ======  ======  ======  ==========    =====================================    ======
+      2550      37   100.0      27  AGATCAATTG    .....................................    AACTGCGGCACCATCGTGCCTGTGACC
+      2614      37    97.3      44  GCCTGTGACC    ...............................A.....    AACTGCTTTTTTGGTGGCACCATCGTGCTGCAACTGCGTGGAGC
+      2695      37    94.6          TGCGTGGAGC    ........A.........-..................    TGTGGCACTCCTCGCACTTCCTGTCAGGGGCTGGGGCCACTG
+==========  ======  ======  ======  ==========    =====================================
+         3      37              35                TAGCAGTTGACCCTTGTCTGGGCTGCTGCAAGCTGAG
+
+
+Array 3
+>RGDI01000039.1 MAG: bacterium isolate WB6_1A_189 contig_100_38, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                                   Spacer
+==========  ======  ======  ======  ==========    =====================================================    ======
+       638      53    83.0      31  GCTGAACTTG    .......G...AC....T........T.........A...C..........AT    GCTGTTTGCAGTCCGCTCACATCTTCTATAT
+       722      53    90.6      31  TCTTCTATAT    ....GT....A..........................C........G......    ACAGTTTGCAAATTGCTTACATCTGTTATTT
+       806      53    84.9          TCTGTTATTT    C.............A..GA.........A.....A........C.....A...    GCTAGTTGAAG
+==========  ======  ======  ======  ==========    =====================================================
+         3      53              31                TATGACTATGGCTTGAACTAGCATAACTGCCAGATGGTTGTTTACCATCTAGA
+
+
+SUMMARY BY SIMILARITY
+
+
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer  +  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  =  =========
+    1  RGDI01000111.1 M        1965         128         3      32      20  +  TTGATTACCAGCTTGATATCCAACAGCAATAC
+
+    2  RGDI01000251.1 M        2550         181         3      37      35  +  TAGCAGTTGACCCTTGTCTGGGCTGCTGCAAGCTGAG
+
+    3  RGDI01000039.1 M         638         221         3      53      31  +  TATGACTATGGCTTGAACTAGCATAACTGCCAGATGGTTGTTTACCATCTAGA
+
+
+
+SUMMARY BY POSITION
+
+
+
+>RGDI01000111.1 MAG: bacterium isolate WB6_1A_189 contig_100_110, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    1  RGDI01000111.1 M        1965         128         3      32      20              TTGATTACCAGCTTGATATCCAACAGCAATAC
+
+
+>RGDI01000251.1 MAG: bacterium isolate WB6_1A_189 contig_100_250, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    2  RGDI01000251.1 M        2550         181         3      37      35              TAGCAGTTGACCCTTGTCTGGGCTGCTGCAAGCTGAG
+
+
+>RGDI01000039.1 MAG: bacterium isolate WB6_1A_189 contig_100_38, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    3  RGDI01000039.1 M         638         221         3      53      31              TATGACTATGGCTTGAACTAGCATAACTGCCAGATGGTTGTTTACCATCTAGA

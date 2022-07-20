@@ -1,0 +1,41 @@
+================================================================
+Program: CD-HIT, V4.8.1 (+OpenMP), Apr 07 2021, 10:57:21
+Command: cd-hit-est -i
+         output/tracrRNA/AllPredicted_tracrRNAs.fasta -o
+         output/tracrRNA/AllPredicted_tracrRNAs.grouped.fasta
+         -T 0 -M 0 -d 0 -c .95 -s .9 -sc 1
+
+Started: Sat Jul  9 19:37:11 2022
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total number of CPUs in the system is 16
+Actual number of CPUs to be used: 16
+
+total seq: 6
+longest and shortest : 301 and 235
+Total letters: 1485
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 0M
+Buffer          : 16 X 12M = 193M
+Table           : 2 X 16M = 33M
+Miscellaneous   : 4M
+Total           : 231M
+
+Table limit with the given memory limit:
+Max number of representatives: 625000
+Max number of word counting entries: 26195390
+
+# comparing sequences from          0  to          6
+---------- new table with        3 representatives
+
+        6  finished          3  clusters
+
+Approximated maximum memory consumption: 231M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 0.30

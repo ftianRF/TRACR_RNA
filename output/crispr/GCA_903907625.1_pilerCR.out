@@ -1,0 +1,140 @@
+pilercr v1.06
+By Robert C. Edgar
+
+input/asm/GCA_903907625.1.fa: 5 putative CRISPR arrays found.
+
+
+
+DETAIL REPORT
+
+
+
+Array 1
+>CAIVOT010000148.1 uncultured Oscillochloris sp. isolate LJ-5-9m_bin-0704 genome assembly, contig: bin-0704:148/634, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                   Spacer
+==========  ======  ======  ======  ==========    =====================================    ======
+      4603      37   100.0      36  GAGCGGCGGA    .....................................    GATTTGTGACAAAATCGGTAGACTTACCCGCGATGC
+      4676      37   100.0      34  CCCGCGATGC    .....................................    GACCGTTGGGCGCATGAGGTTTCGCCGAAATATG
+      4747      37   100.0      36  CCGAAATATG    .....................................    TTACTCCAAACACCGCTGCAGTCCGTGACAAACACT
+      4820      37   100.0      36  GACAAACACT    .....................................    CCGGTTCCCACGTCGGTTCCCGTTCCCGTTCCCGTT
+      4893      37   100.0      35  CGTTCCCGTT    .....................................    TGGACGGAATCAGATCGCGCTAACCGAATCACCGA
+      4965      37   100.0      37  GAATCACCGA    .....................................    TACGATGGATCTCCGAGTGTGTCGATCAATTTCTCTA
+      5039      37   100.0      37  AATTTCTCTA    .....................................    ACAGTGTCGCGTATTCCAAACTGGACACCGCAACGCC
+      5113      37   100.0      37  CCGCAACGCC    .....................................    TTTTACTTACCACGACCATCATCGCCACTATGGCGCA
+      5187      37   100.0      35  CTATGGCGCA    .....................................    TTTTACTTACCACGACCATCATCGCCACTATGGCG
+      5259      37   100.0      36  CACTATGGCG    .....................................    TCACCCACGTATCTACCCAGCCACCGGAGCAGAATC
+      5332      37   100.0      35  GAGCAGAATC    .....................................    GTATCTTGATTTGACAGAGGCGTTTATCGACAGGC
+      5404      37   100.0          ATCGACAGGC    .....................................    CGGGGGCCGA
+==========  ======  ======  ======  ==========    =====================================
+        12      37              35                CTTCAACCAAACAGCGATCCGCACGGCGGATTGAAAC
+
+
+Array 2
+>CAIVOT010000198.1 uncultured Oscillochloris sp. isolate LJ-5-9m_bin-0704 genome assembly, contig: bin-0704:198/634, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                  Spacer
+==========  ======  ======  ======  ==========    ====================================    ======
+       113      36   100.0      36  CCATTGTTGA    ....................................    CGCGCTTCACCAAGGCGTCTGCCGCTTTGCGCTCAA
+       185      36   100.0      37  TTGCGCTCAA    ....................................    TTTTTATGGACACGGAACACTCCAAAGGACTGGCCCG
+       258      36    97.2      36  GACTGGCCCG    ..............................A.....    CCAATAGCCGCAGCGTGGGCATGGGTAGGCGCGGGC
+       330      36   100.0      35  AGGCGCGGGC    ....................................    GTTGACTGCGCCCGGGGTGTGTCACCGTCCAGGGA
+       401      36   100.0      35  CGTCCAGGGA    ....................................    GTTTTACGGCACGGCCAGTGCGACCACGATGCAAC
+       472      36   100.0      36  ACGATGCAAC    ....................................    ATCGCCCCACCCCGGAGGCCCGCGAGTGCCGGAAAC
+       544      36   100.0          TGCCGGAAAC    ....................................    TGGTATCTCGT
+==========  ======  ======  ======  ==========    ====================================
+         7      36              35                TTCAACCAAACAGCGATCCGCACGGCGGATTGAAAC
+
+
+Array 3
+>CAIVOT010000198.1 uncultured Oscillochloris sp. isolate LJ-5-9m_bin-0704 genome assembly, contig: bin-0704:198/634, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                   Spacer
+==========  ======  ======  ======  ==========    =====================================    ======
+       762      37   100.0      37  CCGTTCTAGG    .....................................    AAACTTCTTCTAGATCCTGGTGCTTCTCCGCTCTCTC
+       836      37   100.0      36  CCGCTCTCTC    .....................................    CAGATACGTGGTGTGCCCATCCTGACTGTCAAGATG
+       909      37   100.0      33  TGTCAAGATG    .....................................    CTCCCAGCGGGAACCATCGGGATTGAAGGAGAA
+       979      37   100.0      34  TGAAGGAGAA    .....................................    GCGGATCTGGCGAGCGATAGCCCGCTGACGTATC
+      1050      37   100.0          CTGACGTATC    .....................................    CGGGCGGAGTTCAGCGCCGCCCGTACCTCCTGCACCAT
+==========  ======  ======  ======  ==========    =====================================
+         5      37              35                CTTCAACCAAACAGCGATCCGCACGGCGGATTGAAAC
+
+
+Array 4
+>CAIVOT010000463.1 uncultured Oscillochloris sp. isolate LJ-5-9m_bin-0704 genome assembly, contig: bin-0704:463/634, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                 Spacer
+==========  ======  ======  ======  ==========    ===================================    ======
+         1      35    97.1      36                -..................................    ACTGCTTGAGCATCAGCGCATAGTCAAGCTGGATTC
+        72      35   100.0      36  AGCTGGATTC    ...................................    CTGCCGTCGTCGTCTCGCCCATCGCAGGCCATTCGC
+       143      35   100.0      35  GGCCATTCGC    ...................................    ACGCCACCAAGGCGAGAGCGCAGACAATGGTTTAC
+       213      35   100.0      37  AATGGTTTAC    ...................................    GTCGCCACCGACGCCACCGACGCCACCGACGTTGACC
+       285      35   100.0      37  GACGTTGACC    ...................................    TCTCCCAGAGTGCCTCGCCGCCCTTGCGGTCGGCTGC
+       357      35   100.0      38  GGTCGGCTGC    ...................................    ATCATCGCAGCTTGCGCCATCGTAGCTATAATTGTTGT
+       430      35   100.0      36  TAATTGTTGT    ...................................    CAGATCGCATAAAGTGAGGAGATCGGGATGGCAAAC
+       501      35   100.0      37  GATGGCAAAC    ...................................    TATTCACCGAGGACACCGCCACCGCACTGGCCCTCTC
+       573      35   100.0          TGGCCCTCTC    ...................................    CGACGGGTCGG
+==========  ======  ======  ======  ==========    ===================================
+         9      35              36                CGCAAGCTCTACGATCCGCAAGAGGATACTGAAAC
+
+
+Array 5
+>CAIVOT010000559.1 uncultured Oscillochloris sp. isolate LJ-5-9m_bin-0704 genome assembly, contig: bin-0704:559/634, whole genome shotgun sequence
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                    Spacer
+==========  ======  ======  ======  ==========    ======================================    ======
+     10749      38   100.0      35  CGAGTGGCGG    ......................................    ATGATTTTGAGGAGAATCAGTGCTGGAAGATGCCA
+     10822      38   100.0      35  GAAGATGCCA    ......................................    TGGGGCAACGCAGAATACATCAATCGCGATGGGGG
+     10895      38    92.1          GCGATGGGGG    C...................................--    
+==========  ======  ======  ======  ==========    ======================================
+         3      38              35                GCCGCAAGCTCTACGATCCGCAAGAGGATACTGAAACT
+
+
+SUMMARY BY SIMILARITY
+
+
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer  +  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  =  =========
+    1  CAIVOT010000148.        4603         838        12      37      35  +  CTTCAACCAAACAGCGATCCGCACGGCGGATTGAAAC
+    2  CAIVOT010000198.         113         467         7      36      35  +  -TTCAACCAAACAGCGATCCGCACGGCGGATTGAAAC
+    3  CAIVOT010000198.         762         325         5      37      35  +  CTTCAACCAAACAGCGATCCGCACGGCGGATTGAAAC
+                                                                               ************************************
+
+    4  CAIVOT010000463.           1         606         9      35      36  +  --CGCAAGCTCTACGATCCGCAAGAGGATACTGAAAC-
+    5  CAIVOT010000559.       10749         182         3      38      35  +  GCCGCAAGCTCTACGATCCGCAAGAGGATACTGAAACT
+                                                                                *********************************** 
+
+
+
+SUMMARY BY POSITION
+
+
+
+>CAIVOT010000148.1 uncultured Oscillochloris sp. isolate LJ-5-9m_bin-0704 genome assembly, contig: bin-0704:148/634, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    1  CAIVOT010000148.        4603         838        12      37      35              CTTCAACCAAACAGCGATCCGCACGGCGGATTGAAAC
+
+
+>CAIVOT010000198.1 uncultured Oscillochloris sp. isolate LJ-5-9m_bin-0704 genome assembly, contig: bin-0704:198/634, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    2  CAIVOT010000198.         113         467         7      36      35              TTCAACCAAACAGCGATCCGCACGGCGGATTGAAAC
+    3  CAIVOT010000198.         762         325         5      37      35         147  CTTCAACCAAACAGCGATCCGCACGGCGGATTGAAAC
+
+
+>CAIVOT010000463.1 uncultured Oscillochloris sp. isolate LJ-5-9m_bin-0704 genome assembly, contig: bin-0704:463/634, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    4  CAIVOT010000463.           1         606         9      35      36              CGCAAGCTCTACGATCCGCAAGAGGATACTGAAAC
+
+
+>CAIVOT010000559.1 uncultured Oscillochloris sp. isolate LJ-5-9m_bin-0704 genome assembly, contig: bin-0704:559/634, whole genome shotgun sequence
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    5  CAIVOT010000559.       10749         182         3      38      35              GCCGCAAGCTCTACGATCCGCAAGAGGATACTGAAACT
