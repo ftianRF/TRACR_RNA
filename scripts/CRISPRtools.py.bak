@@ -36,49 +36,45 @@ class MinCEDReader(dict):
         self.ctype = False
         self.parse_file(FileWrapper(filename)); 
         self.calulate_consensus_seqs()
+    def readLocus(self, line, newLocus,file):
+        while "--------" not in line:
+            repeat = ""
+            try: pos, empty, repeat, spacer, lengths = line.strip().split("\t")
+            except ValueError: pos, empty, repeat = line.strip().split("\t")
+            newLocus.add_crRNA(pos, repeat, spacer)
+            line = file.readline()               
     def parse_file(self,file):
-        line_prev = None
         while file.has_more_lines():
-            if line_prev is None:
-                line = file.readline()
-                if "Sequence " in line: contID, asmSize = self.getSeqName(line) #Line 1
-                if contID not in self: 
-                    self[contID] = CRISPR("MinCED")
-                    newLocus = self[contID]
-                    newLocus.name = contID
-                else: newLocus = self[contID]
-                file.readline() #Line 2 is always blank
-                coordLine = file.readline().strip().split(" ") #Line 3
-            else:
-                coordLine = line_prev.strip().split(" ") #Line 3
-            arrayID = coordLine[1]
+            line = file.readline()
+            if "Sequence " in line: contID, asmSize = self.getSeqName(line) #Line 1
+            if contID not in self: 
+                self[contID] = CRISPR("MinCED")
+                newLocus = self[contID]
+                newLocus.name = contID
+            else: newLocus = self[contID]
+            file.readline() #Line 2 is always blank
+            coordLine = file.readline().strip().split(" ") #Line 3
             newLocus.CRISPRarrayLocations.append(Coordinate(int(coordLine[5]), int(coordLine[7])))
             file.readline() #Line 4 is a header line: POSITION REPEAT SPACER
             file.readline() #Line 5 is a divider line w/a bunch of ---
             line = file.readline() #ResultLines
-            spacerID = 0
-            while "--------" not in line:
-                eles = line.strip().split("\t")
-                if len(eles) == 5:
-                    spacerID += 1
-                    pos, empty, repeat, spacer, lengths = eles
-                    newLocus.arrayIDs.append(arrayID)
-                    newLocus.spacerIDs.append(spacerID)
-                    newLocus.add_crRNA(pos, repeat, spacer)
-                else:
-                    #print("Skip this line: {}".format(line.strip()))
-                    pass
-                line = file.readline()
+            self.readLocus(line,newLocus,file)
             file.readline() #Summary line
             file.readline() #Blank line
             line = file.readline().strip() #line with time to find repeats
-            if "Time to" in line:
-                #2 blank lines
+            while "Time to" not in line:
+                coordLine = line.split(" ")
+                newLocus.CRISPRarrayLocations.append(Coordinate(int(coordLine[5]), int(coordLine[7])))
                 file.readline()
                 file.readline()
-                line_prev = None
-            else:
-                line_prev = line
+                line = file.readline()
+                self.readLocus(line,newLocus,file)
+                file.readline()#Summary line
+                file.readline()#Blank line
+                line = file.readline()#line with time to find repeats
+            #2 blank lines
+            file.readline()
+            file.readline()
             self[newLocus.name] = newLocus   
     def calulate_consensus_seqs(self): 
         for locus in self: self[locus].calc_consensus()
@@ -89,8 +85,7 @@ class MinCEDReader(dict):
         return name,length
 
 class PilerCRReader(dict):
-    def __init__(self, filename):
-        self.fname = filename
+    def __init__(self, filename): 
         self.ctype = True
         self.nArrays = 0
         self.parse_file(FileWrapper(filename))       
@@ -100,14 +95,11 @@ class PilerCRReader(dict):
     def parse_file(self,fw):
         for i in range(3):fw.readline()
         self.parseN_Arrays(fw.readline())
-        if self.nArrays == 0:
-            print("No arrays in {}".format(self.fname))
-            return # No arrays found
+        if self.nArrays == 0: print("No arrays");return # No arrays found
         for i in range(7):fw.readline()
         while fw.has_more_lines():
             line = fw.readline()#Array # in file
             if "SUMMARY BY SIMILARITY" in line: break
-            arrayID = line.strip().split(" ")[-1]
             contID = fw.readline().strip().replace(">","") #Contig ID
             if " " in contID: contID=contID[:contID.find(" ")]
             if contID not in self: 
@@ -120,21 +112,11 @@ class PilerCRReader(dict):
             fw.readline() #Header
             fw.readline() #Divider line made of =======
             line = fw.readline() #1rst repeat
-            gap_sum = 0
-            spacerID = 0
             while "==" not in line and "SUMMARY BY" not in line:
-                crRNAInfo = line.strip().split()
+                crRNAInfo = line.strip().split("    ")
                 # if len(newLocus.CRISPRarrayLocations) == 0: newLocus.CRISPRarrayLocations.append(Coordinate(int(crRNAInfo[0]), int(crRNAInfo[0])))
                 # else: newLocus.CRISPRarrayLocations[0].end = int(crRNAInfo[0]) + len(crRNAInfo[-2])
-                if line[33] == " ":
-                    #print("Skip this line: {}".format(line.strip()))
-                    line = fw.readline()
-                    continue
-                spacerID += 1
-                newLocus.arrayIDs.append(arrayID)
-                newLocus.spacerIDs.append(spacerID)
-                newLocus.add_crRNA(int(crRNAInfo[0]) - gap_sum, crRNAInfo[-2], crRNAInfo[-1])
-                gap_sum += crRNAInfo[-2].count("-")
+                newLocus.add_crRNA(int(crRNAInfo[0]), crRNAInfo[-2], crRNAInfo[-1])
                 line = fw.readline()
             if "SUMMARY BY" in line: break
             line = fw.readline().strip()#Summary Line
@@ -154,12 +136,10 @@ def isCircular(fold,repeatLen):
 class CRISPR:
     def __init__(self,crisprType):
         self.name = ""
-        self.arrayIDs = []
-        self.spacerIDs = []
         self.repeats = {}
         self.consensusRepeats = set()
         self.repeatCoords = []
-        self.spacers = []
+        self.spacers = set()
         self.spacerCoords = []
         self.antiRepeats = {}
         self.antiRepeatCandidates = set()
@@ -173,12 +153,11 @@ class CRISPR:
         self.hasNRegion = False
         self.CRISPRarrayLocations = []
     def add_crRNA(self,pos,repeat,spacer):
-        self.spacers.append(spacer)
+        self.spacers.add(spacer)
         if self.crisprType != 'PilerCR': 
             self.addrepeat(repeat) # pilerCR repeats don't need to be added
-        gap_num = repeat.count("-")
-        self.repeatCoords.append(Coordinate(int(pos)-1, int(pos)-1+len(repeat) - gap_num))
-        self.spacerCoords.append(Coordinate(int(pos)-1+len(repeat) - gap_num, int(pos)-1+len(repeat)+len(spacer) - gap_num))
+        self.repeatCoords.append(Coordinate(int(pos)-1,int(pos)+len(repeat)-1))
+        self.spacerCoords.append(Coordinate(int(pos)+len(repeat),int(pos)+len(repeat)+len(spacer)-1))
     def addrepeat(self,repeat):
         try: self.repeats[len(self.CRISPRarrayLocations)][repeat]+=1
         except: 
@@ -581,53 +560,38 @@ class CasOperons:
         # if key in self.operons: return self.operons[self.seqMap[key]]; 
             # return self.operons[key] #super(CasOperons, self).__getitem__(key)
         #return self.operons[self.revMap[key]] #super(CasOperons, self).__getitem__(self.revMap[key])       
-    def hasCas9(self,proRes,crisprs):
-        asm2pro = {}
-        with open(proRes) as f_pro:
-            for line in f_pro:
-                eles = line.strip().split("\t")
-                asm = eles[1]
-                pro = eles[2] + "_" + eles[0]
-                if asm not in asm2pro:
-                    asm2pro[asm] = []
-                asm2pro[asm].append(pro)
+    def hasCas9(self,hmmResultsDir,crisprs):
+        hmmFiles = set(os.listdir(hmmResultsDir))
         gca,gcf=set(),set()
-        for i,f in enumerate(asm2pro):
+        for i,f in enumerate(hmmFiles):
             if "GCF" in f: gcf.add(f[4:])
             elif "GCA"  in f:gca.add(f[4:])
         overlap = gca.intersection(gcf)
-        #for asmID in overlap: hmmFiles.remove("GCA_"+asmID)
-        hmmFiles = [i + ".hmmout" for i in asm2pro]
-        #hmmFiles.sort(reverse=True) #Ensures Patric2 processed last
+        for asmID in overlap: hmmFiles.remove("GCA_"+asmID)
+        hmmFiles = list(hmmFiles)
+        hmmFiles.sort(reverse=True) #Ensures Patric2 processed last
         nHmmFiles = len(hmmFiles)
         print("Processing %i hmm files" % (nHmmFiles))
         # Variables for checking hmm files
         validExts = set([".hmmout"])
-        #fivePercent = max(int(nHmmFiles*.05), 1)
+        fivePercent = max(int(nHmmFiles*.05), 1)
         counter = 0
         #Go through each file
         for fileName in hmmFiles:
             counter += 1
-            #if counter % fivePercent == 0: print("\t%i%% of the way through" % (int((counter/float(nHmmFiles))*100)))
+            if counter % fivePercent == 0: print("\t%i%% of the way through" % (int((counter/float(nHmmFiles))*100)))
             
             #Check that there are hmm hits
             baseAsmName, ext = baseFile(fileName)
-            #if hmmHasResults(hmmResultsDir+"/"+fileName ,ext not in validExts): continue
+            if hmmHasResults(hmmResultsDir+"/"+fileName ,ext not in validExts): continue
             
             ##Parse the hmm results
             # print(hmmResultsDir,fileName)
-            #proteins = HMM_Parser(hmmResultsDir + "/" + fileName).results
-            seqd = fasta_index("input/" + "protein_sel" + ".fa", "fasta")
-            proteins = {}
-            for i in asm2pro[baseAsmName]:
-                pro_st = i[i.rfind("_") + 1:]
-                rec = seqd[pro_st]
-                rec.id = i
-                proteins[i] = rec
-
+            proteins = HMM_Parser(hmmResultsDir + "/" + fileName).results
+            
             ##Get the CHRs with proteins
             chrsWithCas = {}
-            for protID in asm2pro[baseAsmName]:
+            for protID,rec in proteins.items():
                 baseProtID = protID[:protID.rfind("_")]
                 try: chrsWithCas[baseProtID].add(protID) #remove the _ORF## extension of the protID to get the pseudo CHR
                 except: chrsWithCas[baseProtID] = set([protID])

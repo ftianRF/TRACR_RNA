@@ -57,8 +57,7 @@ class HMM_Result:
         self.filePath=filePath
     def __get_proteins__(self,filePath):
         # if not path.exists(filePath.replace(".hmmout",".orfs")): return
-        orfFile = "sequences/orfs/" + filePath[filePath.rfind("/"):]
-        orfFile=orfFile.replace("//","/").replace(".hmmout",".orfs")
+        orfFile = filePath.replace("hmmSearch","orf").replace(".hmmout",".orf")
         if not path.exists(orfFile): 
             print("Missing:",orfFile)
             return

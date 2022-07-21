@@ -23,4 +23,3 @@
 # Priority flag
 #SBATCH --account shadeash-colej 
 
-cd /mnt/research/germs/shane/transActRNA/data

@@ -27,7 +27,7 @@ IUPACS = {
 def comma(number): return "{:,}".format(number)
 
 def dump(dmpObj,fname):
-    print ("\nDumping "+ fname)
+    print ("Dumping "+ fname)
     pcklDump(dmpObj,open(fname,"wb"))
 
 def RC(seq): return str(Seq(seq).reverse_complement())
@@ -114,8 +114,9 @@ class seqDict(dict):
         except: return self.chrToAsm[key]
 
 def createBLASTdb(refFileName):
-    outputDBName = "blastDBs/" + refFileName[refFileName.rfind("/")+1:]
-    cmd = "makeblastdb -in %s -dbtype \"nucl\" -out %s >/dev/null" %(refFileName,outputDBName)
+    outputDBName = refFileName
+    logName = outputDBName.replace(".fasta", ".log").replace(".fa", ".log")
+    cmd = "makeblastdb -in %s -dbtype \"nucl\" -out %s > %s" %(refFileName, outputDBName, logName)
     runStatus = os.system(cmd)
     # print cmd,runStatus
     return outputDBName,runStatus
